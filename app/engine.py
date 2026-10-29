@@ -36,6 +36,8 @@ def research_step(s):
   if name in ('request_fields','handoff'):args={}
   if name=='corpus_search':args={k:v for k,v in args.items() if k in ('query','family','k')}
   if name=='clause_lookup':args={k:v for k,v in args.items() if k=='clause_id'}
+  if name=='corpus_search' and (not isinstance(args.get('query'),str) or not 1<=len(args['query'])<=500 or type(args.get('k',4)) is not int or not 1<=args.get('k',4)<=10 or args.get('family') not in (None,'tender','policy')):raise ValueError('invalid search tool contract')
+  if name=='clause_lookup' and (not isinstance(args.get('clause_id'),str) or not 1<=len(args['clause_id'])<=100):raise ValueError('invalid clause tool contract')
   if name=='handoff':return {**s,'done':True}
   if inspect(args):raise ValueError('unsafe tool arguments')
   start=time.perf_counter();pool=concurrent.futures.ThreadPoolExecutor(max_workers=1)

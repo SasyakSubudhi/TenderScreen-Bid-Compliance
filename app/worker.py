@@ -31,6 +31,8 @@ def process_one(role=ROLE):
    TASKS.labels(role,'success').inc()
  except Exception as e:
   record.update(status='completed',completed_at=time.time(),latency_seconds=time.time()-record['submitted_at'],result={'route':'seek-clarification','human_review':True,'basis':'Run incomplete: '+str(e),'findings':[],'citations':[],'authority':'screening recommendation only','prompt_version':record['prompt_version'],'verification':{'passed':False},'escalation_path':{'owner':'Tender committee','action':'Retry after service recovery'}});store.set('run:'+run,record);TASKS.labels(role,'failure').inc();store.event(run,{'agent':role,'step':'failure','error':str(e)})
+ if record.get('status')=='completed' and 'quality' not in record and int(run[:8],16)%5==0:
+  record['quality']=live_score(record['result'],record['bid'],store.trace(run));store.set('run:'+run,record)
  events=[e for e in store.trace(run) if e.get('agent')==role];STEPS.labels(role).inc(len(events));CALLS.labels(role).inc(sum(e['step']=='tool' for e in events));RETRY.labels(role).inc(sum(e.get('attempt',1)>1 for e in events));LAT.labels(role).observe(time.perf_counter()-t);store.ack(role,key);return True
 def main():
  start=time.time();start_http_server(int(os.getenv('WORKER_METRICS_PORT','9100')))

@@ -10,5 +10,5 @@ evidence/load_*
 *.db-shm
 *.db-wal
 
-MANIFEST.json
+/MANIFEST.json
 docs/Project_and_Viva_Guide.docx
