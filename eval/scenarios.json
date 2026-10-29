@@ -1,0 +1,1098 @@
+[
+  {
+    "id": "01_standard",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "pass-to-technical-evaluation",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "02_exact_turnover",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        2400000,
+        2400000,
+        2400000,
+        2400000,
+        2400000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "pass-to-technical-evaluation",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "03_low_turnover",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        2399999,
+        2399999,
+        2399999,
+        2399999,
+        2399999
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "reject-with-cited-condition",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "04_few_orders",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 4,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "reject-with-cited-condition",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "05_no_emd",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 0,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "reject-with-cited-condition",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "06_startup_low_turnover",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-1",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "P-STARTUP",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "07_startup_low_experience",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 1,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-2",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "P-STARTUP",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "08_mse_low_turnover",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "mse",
+      "turnover_inr": [
+        500000,
+        500000,
+        500000,
+        500000,
+        500000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-3",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "P-MSE",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "09_mse_low_experience",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "mse",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 0,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-4",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "P-MSE",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "10_missing_pan",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "11_unknown",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "unknown",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "12_consortium",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "consortium",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "13_foreign",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "foreign",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "14_local_low",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 19,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "reject-with-cited-condition",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "15_local_boundary",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 20,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "pass-to-technical-evaluation",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "16_technical_unknown",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "unknown",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "17_startup_no_proof",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "18_mse_emd_claim",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "mse",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 0,
+      "exemption_claimed": true,
+      "recognition_id": "DEMO-5",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "19_startup_emd",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 0,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-6",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "G-170",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "20_large_uneven_turnover",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        1000000,
+        2000000,
+        3000000,
+        4000000,
+        5000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "pass-to-technical-evaluation",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "21_mse_ordinary",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "mse",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-7",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "pass-to-technical-evaluation",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "22_startup_both",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        100000,
+        100000,
+        100000,
+        100000,
+        100000
+      ],
+      "eligible_orders": 0,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-8",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "P-STARTUP",
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "23_empty_documents",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  },
+  {
+    "id": "24_missing_authorization",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "large",
+      "turnover_inr": [
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender screening demonstration"
+    },
+    "expected_route": "seek-clarification",
+    "expected_citations": [
+      "T-DOCUMENTS",
+      "T-EMD",
+      "T-EXPERIENCE",
+      "T-LOCAL",
+      "T-TECHNICAL",
+      "T-TURNOVER",
+      "T-ANNEXURES"
+    ]
+  }
+]

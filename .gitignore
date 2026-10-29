@@ -1,0 +1,14 @@
+.env
+data/
+__pycache__/
+.pytest_cache/
+*.pyc
+evidence/load_*
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+
+MANIFEST.json
+docs/Project_and_Viva_Guide.docx

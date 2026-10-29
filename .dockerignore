@@ -1,0 +1,7 @@
+data/
+evidence/
+.env
+.git
+__pycache__/
+*.pyc
+.env.*

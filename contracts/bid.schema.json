@@ -1,0 +1,119 @@
+{
+  "properties": {
+    "tender_id": {
+      "type": "string",
+      "const": "IITPKD-370",
+      "title": "Tender Id",
+      "default": "IITPKD-370"
+    },
+    "bidder_name": {
+      "type": "string",
+      "maxLength": 150,
+      "minLength": 2,
+      "title": "Bidder Name"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "large",
+        "mse",
+        "startup",
+        "consortium",
+        "foreign",
+        "unknown"
+      ],
+      "title": "Category"
+    },
+    "turnover_inr": {
+      "items": {
+        "type": "integer"
+      },
+      "type": "array",
+      "maxItems": 5,
+      "minItems": 5,
+      "title": "Turnover Inr",
+      "description": "FY2019-20 through FY2023-24 in INR"
+    },
+    "eligible_orders": {
+      "type": "integer",
+      "maximum": 10000.0,
+      "minimum": 0.0,
+      "title": "Eligible Orders"
+    },
+    "emd_paid_inr": {
+      "type": "integer",
+      "maximum": 10000000.0,
+      "minimum": 0.0,
+      "title": "Emd Paid Inr"
+    },
+    "exemption_claimed": {
+      "type": "boolean",
+      "title": "Exemption Claimed",
+      "default": false
+    },
+    "recognition_id": {
+      "type": "string",
+      "maxLength": 100,
+      "title": "Recognition Id",
+      "default": ""
+    },
+    "own_goods_or_services": {
+      "type": "boolean",
+      "title": "Own Goods Or Services",
+      "default": true
+    },
+    "local_content_percent": {
+      "type": "integer",
+      "maximum": 100.0,
+      "minimum": 0.0,
+      "title": "Local Content Percent"
+    },
+    "documents": {
+      "items": {
+        "type": "string",
+        "enum": [
+          "registration",
+          "pan",
+          "gst",
+          "audited_accounts",
+          "order_certificates",
+          "signed_tender",
+          "undertaking",
+          "non_debarment",
+          "local_content",
+          "authorization",
+          "fall_clause"
+        ]
+      },
+      "type": "array",
+      "title": "Documents"
+    },
+    "technical_compliance": {
+      "type": "string",
+      "enum": [
+        "declared",
+        "unknown"
+      ],
+      "title": "Technical Compliance",
+      "default": "declared"
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000,
+      "title": "Notes",
+      "default": ""
+    }
+  },
+  "additionalProperties": false,
+  "type": "object",
+  "required": [
+    "bidder_name",
+    "category",
+    "turnover_inr",
+    "eligible_orders",
+    "emd_paid_inr",
+    "local_content_percent",
+    "documents"
+  ],
+  "title": "Bid"
+}

@@ -1,0 +1,43 @@
+# Use with --env-file .env.live and -f compose.yaml -f compose.live.yaml.
+x-live-env: &live
+  env_file: .env.live
+  depends_on:
+    redis: {condition: service_healthy}
+    model-init: {condition: service_completed_successfully}
+services:
+  model-service:
+    image: ollama/ollama:0.40.13
+    restart: unless-stopped
+    volumes:
+      - ${MODEL_CACHE_PATH:-model-cache}:/root/.ollama/models
+    environment:
+      OLLAMA_NUM_PARALLEL: '1'
+      OLLAMA_MAX_LOADED_MODELS: '2'
+    healthcheck:
+      test: [CMD, ollama, list]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  model-init:
+    image: tenderscreen-app:local
+    build:
+      context: .
+      network: ${BUILD_NETWORK:-default}
+    env_file: .env.live
+    command: [python, -m, app.model_init]
+    depends_on:
+      model-service: {condition: service_healthy}
+  indexer:
+    <<: *live
+  agent-worker:
+    <<: *live
+  verification-worker:
+    <<: *live
+  api:
+    <<: *live
+    depends_on:
+      redis: {condition: service_healthy}
+      model-init: {condition: service_completed_successfully}
+      indexer: {condition: service_completed_successfully}
+volumes:
+  model-cache:
