@@ -1,0 +1,78 @@
+{
+  "built_at": 1793302788.641065,
+  "embedding": "ollama:nomic-embed-text:latest:0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f:prefixed-v1",
+  "chunks": 128,
+  "sources": [
+    {
+      "id": "tender",
+      "file": "tender.pdf",
+      "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+      "title": "IIT Palakkad TENDER 2024 25 370 closed 7 January 2025",
+      "original_pdf_pages": null,
+      "retrieved_date": "2026-10-29",
+      "sha256": "38ebd4b8928fbbf95bf89e64dfb496454557775927239e91afefaf40739b5cae",
+      "pages": 10
+    },
+    {
+      "id": "mse",
+      "file": "doe_july_2016.pdf",
+      "url": "https://coal.nic.in/sites/default/files/2020-01/02-08-16-a.pdf",
+      "title": "DoE OM 25 July 2016 official Ministry of Coal copy",
+      "original_pdf_pages": null,
+      "retrieved_date": "2026-10-29",
+      "sha256": "f07598792c063d429b12f38298c2cb41e6fbd8f59b12bbbc26fa7d17ac796196",
+      "pages": 2
+    },
+    {
+      "id": "startup_text",
+      "file": "doe_september_2016.pdf",
+      "url": "https://www.dpe.gov.in/static/uploads/2025/07/89f7e04fda067d5652584449f1e4ee18.pdf",
+      "title": "DPE compendium reproducing DoE OM 20 September 2016",
+      "original_pdf_pages": [
+        235,
+        236
+      ],
+      "retrieved_date": "2026-10-29",
+      "sha256": "64e193e50fe0ffe795214b849911a315a7ffd3623d72649764b46be642e7c4d9",
+      "pages": 2
+    },
+    {
+      "id": "gfr",
+      "file": "gfr_procurement.pdf",
+      "url": "https://cga.nic.in/writereaddata/file/GFR2017.pdf",
+      "title": "General Financial Rules 2017 original procurement chapter",
+      "original_pdf_pages": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "retrieved_date": "2026-10-29",
+      "sha256": "7ef28e2d86353753b24a26907131a52cd1180025f66079182552932bf96b3a7b",
+      "pages": 18
+    }
+  ],
+  "seconds": 0.869039120999787,
+  "reused_embeddings": 128,
+  "recomputed_embeddings": 0,
+  "chunks_per_second": 147.28911151058685,
+  "index_mode": "incremental_update",
+  "updated_vectors": 0,
+  "removed_vectors": 0,
+  "retained_vectors": 128,
+  "targeted_reembedding": []
+}

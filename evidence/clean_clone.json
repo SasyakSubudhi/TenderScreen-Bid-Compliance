@@ -1,0 +1,12 @@
+{
+  "anonymous_public_clone": "passed",
+  "commit": "6d618811caca0023b7788bb3d281eff566fdcedb",
+  "fresh_source_directory": true,
+  "fresh_project_named_volumes": true,
+  "compose_up_build": "passed",
+  "http_examples": 2,
+  "quarantine_before_run": "passed",
+  "dependency_images_and_layers_previously_cached": true,
+  "clean_machine_claim": false,
+  "host_log_encoding": "UTF-8; retry corrected Windows console decoder"
+}

@@ -1,0 +1,13 @@
+{
+  "cold": {
+    "p95_seconds": 0.0006381000057444908,
+    "p50_seconds": 0.0002634499978739768,
+    "provider_cost_usd": 0.0
+  },
+  "warm": {
+    "p95_seconds": 1.3000026228837669e-06,
+    "p50_seconds": 1.1000010999850929e-06,
+    "provider_cost_usd": 0.0
+  },
+  "scope": "retrieval microbenchmark only; full-run p95 cache effect requires Compose load test. Hash embeddings and stub have zero provider charges."
+}

@@ -1,0 +1,15 @@
+{
+  "label": "w1_u1_cache1",
+  "warmup_seconds": 10.0,
+  "measured_seconds_including_drain": 35.36420822143555,
+  "e2e_attempts": 17,
+  "completed_runs": 17,
+  "failed_runs": 0,
+  "completed_rps": 0.4807120208532104,
+  "attempt_rps": 0.4807120208532104,
+  "p50_seconds": 1.9,
+  "p95_seconds": 2.0,
+  "slo_seconds": 30,
+  "slo_met": true,
+  "scope": "E2E from submission through terminal verification; includes queue and polling"
+}

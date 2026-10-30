@@ -1,0 +1,12 @@
+{
+  "renderer": "Microsoft Word native PDF export; packaged LibreOffice unavailable on Windows",
+  "guide_pages": 34,
+  "report_pages": 3,
+  "visual_review": "Every final rendered page inspected; table header orphan corrected and rechecked",
+  "identity_audit": "all four supplied SRNs; no unrelated student identity",
+  "viva_questions": 70,
+  "source_files": {
+    "TenderScreen_Project_and_Viva_Guide.docx": "b5969cea6aaa80fc62c249c1350036d062aac219f9a8fd247816b4555915706b",
+    "TenderScreen_Assignment_Report.docx": "4497d46b541ce1eef5f84ebb1eacab492c928f2c2f4cc5cd880bbe1fb6fe3fd9"
+  }
+}

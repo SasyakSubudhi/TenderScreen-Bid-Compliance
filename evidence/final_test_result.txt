@@ -1,0 +1,5 @@
+Final container suite: 23 passed, one dependency deprecation warning, 12.42 seconds.
+Native Windows suite also passed 23 tests.
+Actual output: evidence/final_linux_tests.log.
+Anonymous public clone built with Compose and served both example requests; see clean_clone.json.
+The live CPU quality batch contains deadline failures and circuit-breaker carryover; see live_evaluation.json.

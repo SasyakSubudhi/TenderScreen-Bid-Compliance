@@ -1,0 +1,260 @@
+#1 [internal] load local bake definitions
+#1 reading from stdin 3.94kB done
+#1 DONE 0.0s
+
+#2 [api internal] load build definition from Dockerfile
+#2 transferring dockerfile: 566B 0.1s done
+#2 transferring dockerfile: 566B 0.1s done
+#2 DONE 0.1s
+
+#3 [verification-worker internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.0s
+
+#4 [agent-worker internal] load .dockerignore
+#4 transferring context: 90B 0.2s
+#4 transferring context: 92B 0.2s done
+#4 DONE 0.2s
+
+#5 [provider-stub  1/14] FROM docker.io/library/python:3.12-slim@sha256:aa943ce411423c7582288f18707ff66eddcbaeb510502d747a72aeb34f30d159
+#5 resolve docker.io/library/python:3.12-slim@sha256:aa943ce411423c7582288f18707ff66eddcbaeb510502d747a72aeb34f30d159 0.0s done
+#5 DONE 0.0s
+
+#6 [verification-worker internal] load build context
+#6 ...
+
+#7 [verification-worker 11/14] COPY eval eval
+#7 CACHED
+
+#8 [verification-worker 12/14] COPY examples examples
+#8 CACHED
+
+#9 [verification-worker  7/14] COPY prompts prompts
+#9 CACHED
+
+#10 [verification-worker  8/14] COPY web web
+#10 CACHED
+
+#11 [verification-worker  9/14] COPY scripts scripts
+#11 CACHED
+
+#12 [verification-worker 10/14] COPY tests tests
+#12 CACHED
+
+#13 [verification-worker 13/14] COPY docs docs
+#13 CACHED
+
+#14 [verification-worker  3/14] COPY requirements.txt .
+#14 CACHED
+
+#15 [verification-worker  4/14] RUN pip install --no-cache-dir --default-timeout=120 --retries=5 -r requirements.txt
+#15 CACHED
+
+#16 [verification-worker  5/14] COPY app app
+#16 CACHED
+
+#17 [verification-worker  6/14] COPY corpus corpus
+#17 CACHED
+
+#18 [verification-worker  2/14] WORKDIR /service
+#18 CACHED
+
+#6 [resource-exporter internal] load build context
+#6 transferring context: 2.06kB 0.6s done
+#6 ...
+
+#16 [resource-exporter  5/14] COPY app app
+#16 CACHED
+
+#10 [resource-exporter  8/14] COPY web web
+#10 CACHED
+
+#7 [resource-exporter 11/14] COPY eval eval
+#7 CACHED
+
+#13 [resource-exporter 13/14] COPY docs docs
+#13 CACHED
+
+#15 [resource-exporter  4/14] RUN pip install --no-cache-dir --default-timeout=120 --retries=5 -r requirements.txt
+#15 CACHED
+
+#14 [resource-exporter  3/14] COPY requirements.txt .
+#14 CACHED
+
+#9 [resource-exporter  7/14] COPY prompts prompts
+#9 CACHED
+
+#18 [resource-exporter  2/14] WORKDIR /service
+#18 CACHED
+
+#11 [resource-exporter  9/14] COPY scripts scripts
+#11 CACHED
+
+#17 [resource-exporter  6/14] COPY corpus corpus
+#17 CACHED
+
+#8 [resource-exporter 12/14] COPY examples examples
+#8 CACHED
+
+#12 [resource-exporter 10/14] COPY tests tests
+#12 CACHED
+
+#19 [verification-worker 14/14] RUN mkdir -p /service/data /service/evidence && useradd --uid 10001 --create-home runner && chown -R runner:runner /service
+#19 CACHED
+
+#20 [api] exporting to image
+#20 exporting layers 0.0s done
+#20 exporting manifest sha256:74e90cee8e965b082becb5be17af2fb3c849fb258e5933959ad7abd27d6493c2 0.0s done
+#20 exporting config sha256:6bc994902cd1e535d8d2b9d7d4c10df9a4e5920e0a38fa0926b40764bb4fb762 0.1s done
+#20 exporting attestation manifest sha256:6af2e2900fe8f40fde7ba322e5752063be7eb224e94188187830325c38770c3a 0.1s done
+#20 exporting manifest list sha256:13eb4708409aaad9c9e52d27ee9aba987b1cc3427ba49972222d8fb2b7e3514f
+#20 exporting manifest list sha256:13eb4708409aaad9c9e52d27ee9aba987b1cc3427ba49972222d8fb2b7e3514f 0.0s done
+#20 naming to docker.io/library/tenderscreen-app:local 0.0s done
+#20 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#20 DONE 0.4s
+
+#21 [agent-worker] exporting to image
+#21 exporting layers 0.0s done
+#21 exporting manifest sha256:f4ba7d3079e8b50fab37a4ecce91074aed34a223ff038387fa5d0ac3f7ef471f 0.0s done
+#21 exporting config sha256:426e7cc911a237b8d8a8af24f9f5e5dfdde7134cd9c244bb97ee3e6bf9c27ac1 0.1s done
+#21 exporting attestation manifest sha256:6af24d0111fc04fc4a533956981802782f1c6be0580a88771225d730dfef34b0 0.1s done
+#21 exporting manifest list sha256:04f0669122808552e5769e7a643ca6f27bf1e8f1ccc50f1def03358af8a49d77 0.0s done
+#21 naming to docker.io/library/tenderscreen-app:local done
+#21 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#21 DONE 0.5s
+
+#22 [resource-exporter] exporting to image
+#22 exporting layers 0.0s done
+#22 exporting manifest sha256:ef4f89deec473f984220e01a09ff281bdee7b7fd60bb54b1d4c572a34219fc4e 0.0s done
+#22 exporting config sha256:8ee17162a05dfc2bb439616236f9b4f338f0f23f0e0d329f62776988643c1433 0.1s done
+#22 exporting attestation manifest sha256:0c2d58af4bf7fccfb3a94f9f9d2edda802da55327754ae42b178324fc8df687f 0.1s done
+#22 exporting manifest list sha256:3a0c664251b68ca53594583745e9cfdd1357a0954b337dccfb4df6b84b64313e 0.0s done
+#22 naming to docker.io/library/tenderscreen-app:local 0.0s done
+#22 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#22 DONE 0.4s
+
+#23 [provider-stub] exporting to image
+#23 exporting layers 0.0s done
+#23 exporting manifest sha256:3438cd0f68eab3c12f1e92a91082e8cd98bceed4cd7a863cfbff668cb5f520cb 0.0s done
+#23 exporting config sha256:7a20d41a50748c8247d7f6d6b0748227c9b985b83147f888bfce47a8a7622e49 0.1s done
+#23 exporting attestation manifest sha256:9b6994af0a8aaaa7654d2fc4a21311a1776e4280f3bae57c8a1b4ee1b878c8dd 0.1s done
+#23 exporting manifest list sha256:531a0257fc3ce5748555a3792b294708a1563556f3e554b7ac37308a62f53da0 0.0s done
+#23 naming to docker.io/library/tenderscreen-app:local 0.0s done
+#23 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#23 DONE 0.4s
+
+#24 [verification-worker] exporting to image
+#24 exporting layers 0.0s done
+#24 exporting manifest sha256:41629ab0364c0000d45397fb47f283a3333ba1a626e899b8135f6252eae1672c 0.0s done
+#24 exporting config sha256:6e80ff6fdcaeb17d0640aeabb874a238a4a6dd897af07adaca9ec6cfa79acda9 0.1s done
+#24 exporting attestation manifest sha256:95e9187f6b3ad8cbfdc64d45511a1e7f29f808a71637d6e8edb71b6d063638db 0.1s done
+#24 exporting manifest list sha256:66f30ae55e5a66de47405f366d9089dad097e6734a6b854c8a531fcff19c9fc9 0.0s done
+#24 naming to docker.io/library/tenderscreen-app:local 0.0s done
+#24 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#24 DONE 0.4s
+
+#25 [indexer] exporting to image
+#25 exporting layers 0.0s done
+#25 exporting manifest sha256:33adc207df10f5ee0179ec8d091b15e37914d486dbd7f9dc5c2dd7159ae4c388 0.0s done
+#25 exporting config sha256:459c4ff1f97a5ddeff1e722f911a45b1afc3f5acabf2622d4e9d74ff10d27cfe 0.1s done
+#25 exporting attestation manifest sha256:b42328adeb88514c041d75f87b103441da8a14c8392756fefe1459d56a65da72 0.1s done
+#25 exporting manifest list sha256:c764cec76446f35d15bb17471ec531ad1df2927ad42cd6b3ffe7d3e2702ba04c 0.0s done
+#25 naming to docker.io/library/tenderscreen-app:local 0.0s done
+#25 unpacking to docker.io/library/tenderscreen-app:local 0.0s done
+#25 DONE 0.4s
+
+#6 [resource-exporter internal] load build context
+#6 ...
+
+#26 [indexer] resolving provenance for metadata file
+#26 DONE 0.2s
+
+#27 [api] resolving provenance for metadata file
+#27 DONE 0.1s
+
+#28 [resource-exporter] resolving provenance for metadata file
+#28 DONE 0.2s
+
+#29 [verification-worker] resolving provenance for metadata file
+#29 DONE 0.1s
+
+#30 [provider-stub] resolving provenance for metadata file
+#30 DONE 0.2s
+
+#31 [agent-worker] resolving provenance for metadata file
+#31 DONE 0.0s
+
+#6 [resource-exporter internal] load build context
+ tenderscreen-app:local  Built
+ tenderscreen-app:local  Built
+ tenderscreen-app:local  Built
+ tenderscreen-app:local  Built
+ tenderscreen-app:local  Built
+ tenderscreen-app:local  Built
+ Network tenderscreen-cloneproof2_default  Creating
+ Network tenderscreen-cloneproof2_default  Created
+ Volume tenderscreen-cloneproof2_grafana-data  Creating
+ Volume tenderscreen-cloneproof2_grafana-data  Created
+ Volume tenderscreen-cloneproof2_redis-data  Creating
+ Volume tenderscreen-cloneproof2_redis-data  Created
+ Volume tenderscreen-cloneproof2_corpus-data  Creating
+ Volume tenderscreen-cloneproof2_corpus-data  Created
+ Container tenderscreen-cloneproof2-jaeger-1  Creating
+ Container tenderscreen-cloneproof2-prometheus-1  Creating
+ Container tenderscreen-cloneproof2-provider-stub-1  Creating
+ Container tenderscreen-cloneproof2-redis-1  Creating
+ Container tenderscreen-cloneproof2-grafana-1  Creating
+ Container tenderscreen-cloneproof2-jaeger-1  Created
+ Container tenderscreen-cloneproof2-provider-stub-1  Created
+ Container tenderscreen-cloneproof2-redis-1  Created
+ Container tenderscreen-cloneproof2-resource-exporter-1  Creating
+ Container tenderscreen-cloneproof2-verification-worker-1  Creating
+ Container tenderscreen-cloneproof2-indexer-1  Creating
+ Container tenderscreen-cloneproof2-agent-worker-1  Creating
+ Container tenderscreen-cloneproof2-prometheus-1  Created
+ Container tenderscreen-cloneproof2-grafana-1  Created
+ Container tenderscreen-cloneproof2-resource-exporter-1  Created
+ Container tenderscreen-cloneproof2-verification-worker-1  Created
+ Container tenderscreen-cloneproof2-agent-worker-1  Created
+ Container tenderscreen-cloneproof2-indexer-1  Created
+ Container tenderscreen-cloneproof2-api-1  Creating
+ Container tenderscreen-cloneproof2-api-1  Created
+ Container tenderscreen-cloneproof2-jaeger-1  Starting
+ Container tenderscreen-cloneproof2-prometheus-1  Starting
+ Container tenderscreen-cloneproof2-redis-1  Starting
+ Container tenderscreen-cloneproof2-provider-stub-1  Starting
+ Container tenderscreen-cloneproof2-grafana-1  Starting
+ Container tenderscreen-cloneproof2-provider-stub-1  Started
+ Container tenderscreen-cloneproof2-jaeger-1  Started
+ Container tenderscreen-cloneproof2-prometheus-1  Started
+ Container tenderscreen-cloneproof2-redis-1  Started
+ Container tenderscreen-cloneproof2-redis-1  Waiting
+ Container tenderscreen-cloneproof2-provider-stub-1  Waiting
+ Container tenderscreen-cloneproof2-redis-1  Waiting
+ Container tenderscreen-cloneproof2-redis-1  Waiting
+ Container tenderscreen-cloneproof2-provider-stub-1  Waiting
+ Container tenderscreen-cloneproof2-provider-stub-1  Waiting
+ Container tenderscreen-cloneproof2-redis-1  Waiting
+ Container tenderscreen-cloneproof2-grafana-1  Started
+ Container tenderscreen-cloneproof2-provider-stub-1  Healthy
+ Container tenderscreen-cloneproof2-redis-1  Healthy
+ Container tenderscreen-cloneproof2-redis-1  Healthy
+ Container tenderscreen-cloneproof2-indexer-1  Starting
+ Container tenderscreen-cloneproof2-provider-stub-1  Healthy
+ Container tenderscreen-cloneproof2-provider-stub-1  Healthy
+ Container tenderscreen-cloneproof2-redis-1  Healthy
+ Container tenderscreen-cloneproof2-agent-worker-1  Starting
+ Container tenderscreen-cloneproof2-resource-exporter-1  Starting
+ Container tenderscreen-cloneproof2-redis-1  Healthy
+ Container tenderscreen-cloneproof2-verification-worker-1  Starting
+ Container tenderscreen-cloneproof2-agent-worker-1  Started
+ Container tenderscreen-cloneproof2-verification-worker-1  Started
+ Container tenderscreen-cloneproof2-resource-exporter-1  Started
+ Container tenderscreen-cloneproof2-indexer-1  Started
+ Container tenderscreen-cloneproof2-redis-1  Waiting
+ Container tenderscreen-cloneproof2-indexer-1  Waiting
+ Container tenderscreen-cloneproof2-provider-stub-1  Waiting
+ Container tenderscreen-cloneproof2-provider-stub-1  Healthy
+ Container tenderscreen-cloneproof2-redis-1  Healthy
+ Container tenderscreen-cloneproof2-indexer-1  Exited
+ Container tenderscreen-cloneproof2-api-1  Starting
+ Container tenderscreen-cloneproof2-api-1  Started

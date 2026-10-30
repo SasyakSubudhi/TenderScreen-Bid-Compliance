@@ -1,0 +1,235 @@
+{
+  "sum(rate(container_cpu_usage_seconds_total[1m])) by (name)": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "name": "tenderscreen-grafana-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.005833266811428569"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-resource-exporter-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.006826213250476191"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-provider-stub-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.012769982117619049"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-prometheus-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.00645188330809524"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-redis-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.017092875071904764"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-jaeger-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.0011605999271428575"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-indexer-1"
+          },
+          "value": [
+            1793329337.185,
+            "0"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-agent-worker-2"
+          },
+          "value": [
+            1793329337.185,
+            "0.030388881201904763"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-verification-worker-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.027147268672857147"
+          ]
+        },
+        {
+          "metric": {
+            "name": "tenderscreen-api-1"
+          },
+          "value": [
+            1793329337.185,
+            "0.023482050809999995"
+          ]
+        }
+      ]
+    }
+  },
+  "container_memory_working_set_bytes": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": [
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-grafana-1"
+          },
+          "value": [
+            1793329337.192,
+            "87404544"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-resource-exporter-1"
+          },
+          "value": [
+            1793329337.192,
+            "34615296"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-provider-stub-1"
+          },
+          "value": [
+            1793329337.192,
+            "46620672"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-prometheus-1"
+          },
+          "value": [
+            1793329337.192,
+            "79802368"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-redis-1"
+          },
+          "value": [
+            1793329337.192,
+            "21000192"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-jaeger-1"
+          },
+          "value": [
+            1793329337.192,
+            "10645504"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-indexer-1"
+          },
+          "value": [
+            1793329337.192,
+            "22335488"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-agent-worker-2"
+          },
+          "value": [
+            1793329337.192,
+            "83005440"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-verification-worker-1"
+          },
+          "value": [
+            1793329337.192,
+            "83066880"
+          ]
+        },
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "instance": "resource-exporter:9100",
+            "job": "resources",
+            "name": "tenderscreen-api-1"
+          },
+          "value": [
+            1793329337.192,
+            "64606208"
+          ]
+        }
+      ]
+    }
+  },
+  "sum(rate(agent_task_seconds_sum[5m])) by (agent) / sum(rate(agent_task_seconds_count[5m])) by (agent)": {
+    "status": "success",
+    "data": {
+      "resultType": "vector",
+      "result": []
+    }
+  }
+}

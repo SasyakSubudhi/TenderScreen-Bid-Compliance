@@ -1,0 +1,21 @@
+{
+  "tested_chat_model": "llama3.2:latest",
+  "chat_parameters_approx": "3.2 billion",
+  "chat_quantization": "Q4_K_M",
+  "tested_embedding_model": "nomic-embed-text:latest",
+  "semantic_dimensions": 768,
+  "hash_dimensions": 512,
+  "server_image": "ollama/ollama:0.40.13",
+  "model_manifests": {
+    "llama3.2:latest": {
+      "manifest_sha256": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72"
+    },
+    "nomic-embed-text:latest": {
+      "manifest_sha256": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f"
+    }
+  },
+  "hardware": "13th Gen Intel Core i5-13420H; 8 cores 12 logical processors; CPU inference",
+  "docker_server": "29.1.3",
+  "compose": "2.40.3",
+  "host_environment": "Windows with WSL Ubuntu 24.04"
+}

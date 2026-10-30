@@ -1,0 +1,2 @@
+Semantic chunks 128 repeat updated 0 target updated 1 retained 127
+time="2026-10-29T19:36:05Z" level=warning msg="volume \"tenderscreen_model-cache\" already exists but was not created by Docker Compose. Use `external: true` to use an existing volume"

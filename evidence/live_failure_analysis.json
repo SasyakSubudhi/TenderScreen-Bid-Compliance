@@ -1,0 +1,425 @@
+{
+  "error_counts": {
+    "timed out": 19
+  },
+  "cases": [
+    {
+      "variant": "before",
+      "id": "01_standard",
+      "latency_seconds": 45.12080595899988,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "02_exact_turnover",
+      "latency_seconds": 44.75876651800013,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "03_low_turnover",
+      "latency_seconds": 45.127423722,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "04_few_orders",
+      "latency_seconds": 45.115402226000015,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "05_no_emd",
+      "latency_seconds": 37.89567292400011,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "06_startup_low_turnover",
+      "latency_seconds": 45.19053364599972,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:P-STARTUP, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "07_startup_low_experience",
+      "latency_seconds": 45.13816196700009,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:P-STARTUP, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "08_mse_low_turnover",
+      "latency_seconds": 45.123708840999825,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:P-MSE, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "09_mse_low_experience",
+      "latency_seconds": 45.13237014199967,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:P-MSE, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "10_missing_pan",
+      "latency_seconds": 36.62090642699968,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "11_unknown",
+      "latency_seconds": 45.119851226000264,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "12_consortium",
+      "latency_seconds": 45.12888061600006,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "13_foreign",
+      "latency_seconds": 45.13415849100011,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "14_local_low",
+      "latency_seconds": 31.742897825,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "15_local_boundary",
+      "latency_seconds": 31.825181205999797,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "16_technical_unknown",
+      "latency_seconds": 30.40571660500018,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "17_startup_no_proof",
+      "latency_seconds": 39.851247071000216,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "18_mse_emd_claim",
+      "latency_seconds": 40.464625134000016,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "19_startup_emd",
+      "latency_seconds": 30.798561330999746,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:G-170",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "20_large_uneven_turnover",
+      "latency_seconds": 30.71238954399996,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "21_mse_ordinary",
+      "latency_seconds": 32.151630816000306,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "22_startup_both",
+      "latency_seconds": 45.136480284999834,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:P-STARTUP, unretrieved:P-STARTUP, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out"
+      ]
+    },
+    {
+      "variant": "before",
+      "id": "23_empty_documents",
+      "latency_seconds": 30.915352687999984,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "before",
+      "id": "24_missing_authorization",
+      "latency_seconds": 33.895516978999694,
+      "verified": true,
+      "basis": "Incomplete or unclear evidence requires committee clarification.",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "01_standard",
+      "latency_seconds": 23.09663385299973,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "02_exact_turnover",
+      "latency_seconds": 24.531175737000012,
+      "verified": true,
+      "basis": "Screened summary findings only; tender committee retains every final decision.",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "03_low_turnover",
+      "latency_seconds": 45.33718465500033,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:run_deadline",
+      "model_errors": [
+        "timed out",
+        "timed out"
+      ]
+    },
+    {
+      "variant": "after",
+      "id": "04_few_orders",
+      "latency_seconds": 45.15903557999991,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:provider_failed:ReadTimeout,ReadTimeout,ReadTimeout",
+      "model_errors": [
+        "timed out",
+        "timed out",
+        "timed out"
+      ]
+    },
+    {
+      "variant": "after",
+      "id": "05_no_emd",
+      "latency_seconds": 45.37799347000009,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:provider_failed:ReadTimeout,ReadTimeout,ReadTimeout",
+      "model_errors": [
+        "timed out",
+        "timed out",
+        "timed out"
+      ]
+    },
+    {
+      "variant": "after",
+      "id": "06_startup_low_turnover",
+      "latency_seconds": 0.042351527999926475,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:P-STARTUP, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "07_startup_low_experience",
+      "latency_seconds": 0.06975411199982773,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:P-STARTUP, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "08_mse_low_turnover",
+      "latency_seconds": 0.02951972000028036,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:P-MSE, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "09_mse_low_experience",
+      "latency_seconds": 0.03181139299977076,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:P-MSE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "10_missing_pan",
+      "latency_seconds": 0.030708074999893142,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "11_unknown",
+      "latency_seconds": 0.021812438999859296,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "12_consortium",
+      "latency_seconds": 0.03046657300001243,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "13_foreign",
+      "latency_seconds": 0.029703497999889805,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "14_local_low",
+      "latency_seconds": 0.03615424800000255,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "15_local_boundary",
+      "latency_seconds": 0.036525287999666034,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "16_technical_unknown",
+      "latency_seconds": 0.02926226699992185,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "17_startup_no_proof",
+      "latency_seconds": 0.033169868999721075,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "18_mse_emd_claim",
+      "latency_seconds": 0.03231801199990514,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "19_startup_emd",
+      "latency_seconds": 0.02020497700004853,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:G-170, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "20_large_uneven_turnover",
+      "latency_seconds": 0.007636344999809808,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "21_mse_ordinary",
+      "latency_seconds": 0.03564130599988857,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "22_startup_both",
+      "latency_seconds": 0.03470558200024243,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:P-STARTUP, unretrieved:T-EXPERIENCE, unretrieved:P-STARTUP, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "23_empty_documents",
+      "latency_seconds": 0.03534527700003309,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    },
+    {
+      "variant": "after",
+      "id": "24_missing_authorization",
+      "latency_seconds": 0.021210719999999128,
+      "verified": false,
+      "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+      "model_errors": []
+    }
+  ],
+  "interpretation": "CPU timeout and shared circuit-breaker carryover are included in the unisolated service batch. Report as observed degradation, not a prompt-only causal comparison."
+}

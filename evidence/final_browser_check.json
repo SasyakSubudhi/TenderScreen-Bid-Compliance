@@ -1,0 +1,560 @@
+{
+  "browser_run": {
+    "run_id": "dd517d0c44714770b69dbba358d3244b",
+    "status": "completed",
+    "bid": {
+      "tender_id": "IITPKD-370",
+      "bidder_name": "Demonstration Supplier",
+      "category": "startup",
+      "turnover_inr": [
+        1000000,
+        1000000,
+        1000000,
+        1000000,
+        1000000
+      ],
+      "eligible_orders": 6,
+      "emd_paid_inr": 24000,
+      "exemption_claimed": false,
+      "recognition_id": "DEMO-DPIIT-001",
+      "own_goods_or_services": true,
+      "local_content_percent": 60,
+      "documents": [
+        "registration",
+        "pan",
+        "gst",
+        "audited_accounts",
+        "order_certificates",
+        "signed_tender",
+        "undertaking",
+        "non_debarment",
+        "local_content",
+        "authorization",
+        "fall_clause"
+      ],
+      "technical_compliance": "declared",
+      "notes": "Historical tender demonstration"
+    },
+    "submitted_at": 1793330260.31735,
+    "prompt_version": "v2",
+    "trace_context": {
+      "traceparent": "00-2a81fd684783fd146e29dd5ddf1ce096-8ff449145e6df5e2-03"
+    },
+    "result": {
+      "route": "seek-clarification",
+      "human_review": true,
+      "basis": "Tender and policy may conflict; tender committee must resolve both sources.",
+      "findings": [
+        {
+          "condition": "turnover",
+          "status": "conflict",
+          "citation_ids": [
+            "T-TURNOVER",
+            "P-STARTUP"
+          ],
+          "basis": "Five-year average INR 1,000,000.00; threshold INR 2,400,000. Potential policy relaxation requires committee review and technical quality check."
+        },
+        {
+          "condition": "experience",
+          "status": "met",
+          "citation_ids": [
+            "T-EXPERIENCE"
+          ],
+          "basis": "6 eligible implemented orders; threshold five."
+        },
+        {
+          "condition": "emd",
+          "status": "met",
+          "citation_ids": [
+            "T-EMD"
+          ],
+          "basis": "Declared payment covers INR 24,000."
+        },
+        {
+          "condition": "documents",
+          "status": "met",
+          "citation_ids": [
+            "T-DOCUMENTS",
+            "T-ANNEXURES",
+            "T-TURNOVER",
+            "T-EXPERIENCE"
+          ],
+          "basis": "All screened document categories declared present; authenticity remains for committee."
+        },
+        {
+          "condition": "local_content",
+          "status": "met",
+          "citation_ids": [
+            "T-LOCAL"
+          ],
+          "basis": "Declared local content 60 percent; minimum 20 percent."
+        },
+        {
+          "condition": "technical_quality",
+          "status": "review",
+          "citation_ids": [
+            "T-TECHNICAL"
+          ],
+          "basis": "Full technical evaluation and authenticity checks are outside this summary screen."
+        }
+      ],
+      "citations": [
+        {
+          "id": "P-STARTUP",
+          "family": "policy",
+          "source_id": "startup_text",
+          "file": "doe_september_2016.pdf",
+          "page": 1,
+          "original_pdf_page": 235,
+          "section": "DoE 20 September 2016 paras 2 and 3",
+          "url": "https://www.dpe.gov.in/static/uploads/2025/07/89f7e04fda067d5652584449f1e4ee18.pdf",
+          "text": "2. A doubt has arisen if it makes optional for Central Ministries/Departments to relax condition of prior experience and prior turnover in public procurement to Startups. In this regard, it is again clarified that normally for all public procurement, the Central Ministries/Departments have to ensure that criteria of prior turnover and prior experience for all Startups is relaxed subject to their meeting of quality and technical specification. 3. However, there may be circumstances (like procurement of items related to public safety, health, critical security operations and equipments, etc.) where procuring entities may prefer the vendors to have prior experience rather than giving orders to new entities. For such procurements, wherever adequate justification exists, the procuring entities may not relax the criteria of prior experience/turnover for the Startups."
+        },
+        {
+          "id": "T-ANNEXURES",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 2,
+          "original_pdf_page": 2,
+          "section": "2 a document composition",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "(a) The Tender Document comprises of: Instruction to the bidders including terms and conditions 1. Technical Specifications (Annexure-I) 2. Undertaking by the Bidder (Annexure-II) 3. Fall Clause Notice Certificate (Annexure-III) 4. Annexure regarding Blacklisting/Debarment (Annexure-IV) 5. Self Declaration \u2013 MII Order (Annexure-V)"
+        },
+        {
+          "id": "T-DOCUMENTS",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 3,
+          "original_pdf_page": 3,
+          "section": "3 a to g documents comprising the bid",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "(a) The Technical, Techno-commercial (Cover One), and Commercial Bid (Cover Two) shall be submitted ONLINE through the e-Wizard Portal. (b) Bids submitted in any mode other than ONLINE will be rejected outright. (c) Documents establishing the conformity of the terms and conditions of the Tender Document shall be provided along with the bid. The offer/bids should be sent only for a system or that is available in the market and supplied to a number of customers. A list of customers in India and abroad with details must accompany the quotations. Quotations for a prototype machine will not be accepted. (d) Original catalogue (not any photocopy) of the quoted model duly signed by the principals must accompany the quotation in the Technical bid. No prices should ever be included in the Technical bid. (e) Compliance or Confirmation report with reference to the specifications and other terms and conditions should also be obtained from the principal. (f) Information related to the agency/bidder such as photocopies of the Registration/PAN/GST/TIN shall be furnished. (g) The technical bid should consist of all technical details along with commercial terms and conditions. No prices should be included in the technical bid. Mentioning of Prices in the Technical Bid shall lead to DISQUALIFICATION. "
+        },
+        {
+          "id": "T-EMD",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 3,
+          "original_pdf_page": 3,
+          "section": "4 a to c",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "(a) The bidder shall furnish EMD of Rs.24,000/- (Rupees Twenty-Four Thousand Only) through online payment gateway in the E-Wizard. (b) Bids not accompanied by EMD shall be DISQUALIFIED. (c) The firms who are registered with National Small Industries Corporation (NSIC) / or Small Scale Industrial (SSI)/ Micro & Small Enterprises (MSEs) are exempted from submitting the EMD. NSIC / MSME registered bidders must submit a copy of a valid NSIC / MSME Registration Certificate for exemption of EMD. It will be applicable for those bidders who shall produce their own goods or provide their own services, and not applicable for trading purposes."
+        },
+        {
+          "id": "T-EXPERIENCE",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 3,
+          "original_pdf_page": 3,
+          "section": "3 h 1",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "1) Should have implemented at least FIVE ORDERS of Desktop Computer during previous five financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24)from Centrally Funded Technical Institutes (IITs, NITs, IISc, IISER), DRDO, ISRO, CSIR labs or Government Firms in India. Copies of the most recent purchase orders and user certificates of successful implementation must be included. Copies of financial statements or evidence of turnover must be furnished."
+        },
+        {
+          "id": "T-LOCAL",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 7,
+          "original_pdf_page": 7,
+          "section": "Award criteria 2",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "2. The bidder should be a Class-I / Class-II Local Supplier meeting the requirement of minimum 20% Local Content in line with the Public Procurement (Preference to Make in India) Order 2017 No. P-45021/2/2017-PP(BE-II) dated 16-09-2020."
+        },
+        {
+          "id": "T-TECHNICAL",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 8,
+          "original_pdf_page": 8,
+          "section": "Annexure I technical specifications",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "TECHNICAL SPECIFICATIONS Sl. No. Items IIT PKD required Specification 1. DESKTOP CPU 14th Gen Intel Core i7 Memory 32 GB DDR4 Storage 1 TB SSD Graphics Integrated Wifi and Bluetooth Wi-Fi 6 (802.11 ax), Bluetooth Ports USB 3.1 or higher , HDMI, Headphone / mic combo, RJ45 Display 23.8\u201d IPS LED Monitor with HDMI input, resolution : 1920x1080p @60Hz Keyboard Wired standard keyboard Mouse Wired Optical mouse Operating System Windows 11 Pro and Linux Warranty 5 Years Onsite"
+        },
+        {
+          "id": "T-TURNOVER",
+          "family": "tender",
+          "source_id": "tender",
+          "file": "tender.pdf",
+          "page": 3,
+          "original_pdf_page": 3,
+          "section": "3 h 2",
+          "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+          "text": "2) Should have an Average Annual Turnover of Rs.24,00,000/- (RUPEES TWENTY FOUR LAKHS ONLY) during the last FIVE financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24). The bidder shall enclose the audited statements of the indicated financial years, which should have been certified by a Chartered Accountant or a Competent Authority."
+        }
+      ],
+      "prompt_version": "v2",
+      "authority": "screening recommendation only",
+      "verification": {
+        "passed": true,
+        "errors": []
+      },
+      "escalation_path": {
+        "owner": "Tender committee",
+        "action": "Review cited clauses and original bidder evidence",
+        "conflicts": [
+          "turnover"
+        ]
+      }
+    },
+    "completed_at": 1793330262.9986048,
+    "latency_seconds": 2.6812548637390137,
+    "cost_usd": 0.0
+  },
+  "trace": {
+    "run_id": "dd517d0c44714770b69dbba358d3244b",
+    "events": [
+      {
+        "agent": "research",
+        "step": "model",
+        "prompt_version": "v2",
+        "attempt": 1,
+        "latency": 0.527817068999866,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "cost_usd": 0.0,
+        "usage_kind": "stub_no_tokens",
+        "provider_mode": "stub",
+        "model_identifier": null,
+        "action": {
+          "tool": "request_fields",
+          "args": {}
+        },
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "a7e4ebe4f1f770b2",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330260.890909,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "tool",
+        "tool": "request_fields",
+        "query": {},
+        "passages": {
+          "category": "startup",
+          "average_turnover": 1000000.0,
+          "exemption_claimed": false,
+          "recognition_id": "DEMO-DPIIT-001"
+        },
+        "latency": 0.0010921760001565417,
+        "prompt_version": "v2",
+        "cost_usd": 0,
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "4adef2eada034482",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330260.893628,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "model",
+        "prompt_version": "v2",
+        "attempt": 1,
+        "latency": 0.518134635000024,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "cost_usd": 0.0,
+        "usage_kind": "stub_no_tokens",
+        "provider_mode": "stub",
+        "model_identifier": null,
+        "action": {
+          "tool": "corpus_search",
+          "args": {
+            "query": "turnover experience earnest money documents local content",
+            "family": "tender",
+            "k": 8
+          }
+        },
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "b968584be4892413",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330261.413961,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "tool",
+        "tool": "corpus_search",
+        "query": {
+          "query": "turnover experience earnest money documents local content",
+          "family": "tender",
+          "k": 8
+        },
+        "passages": [
+          {
+            "id": "T-LOCAL",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 7,
+            "original_pdf_page": 7,
+            "section": "Award criteria 2",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "2. The bidder should be a Class-I / Class-II Local Supplier meeting the requirement of minimum 20% Local Content in line with the Public Procurement (Preference to Make in India) Order 2017 No. P-45021/2/2017-PP(BE-II) dated 16-09-2020."
+          },
+          {
+            "id": "T-EXPERIENCE",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 h 1",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "1) Should have implemented at least FIVE ORDERS of Desktop Computer during previous five financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24)from Centrally Funded Technical Institutes (IITs, NITs, IISc, IISER), DRDO, ISRO, CSIR labs or Government Firms in India. Copies of the most recent purchase orders and user certificates of successful implementation must be included. Copies of financial statements or evidence of turnover must be furnished."
+          },
+          {
+            "id": "T-EMD",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "4 a to c",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The bidder shall furnish EMD of Rs.24,000/- (Rupees Twenty-Four Thousand Only) through online payment gateway in the E-Wizard. (b) Bids not accompanied by EMD shall be DISQUALIFIED. (c) The firms who are registered with National Small Industries Corporation (NSIC) / or Small Scale Industrial (SSI)/ Micro & Small Enterprises (MSEs) are exempted from submitting the EMD. NSIC / MSME registered bidders must submit a copy of a valid NSIC / MSME Registration Certificate for exemption of EMD. It will be applicable for those bidders who shall produce their own goods or provide their own services, and not applicable for trading purposes."
+          },
+          {
+            "id": "T-TURNOVER",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 h 2",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "2) Should have an Average Annual Turnover of Rs.24,00,000/- (RUPEES TWENTY FOUR LAKHS ONLY) during the last FIVE financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24). The bidder shall enclose the audited statements of the indicated financial years, which should have been certified by a Chartered Accountant or a Competent Authority."
+          },
+          {
+            "id": "T-DOCUMENTS",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 a to g documents comprising the bid",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The Technical, Techno-commercial (Cover One), and Commercial Bid (Cover Two) shall be submitted ONLINE through the e-Wizard Portal. (b) Bids submitted in any mode other than ONLINE will be rejected outright. (c) Documents establishing the conformity of the terms and conditions of the Tender Document shall be provided along with the bid. The offer/bids should be sent only for a system or that is available in the market and supplied to a number of customers. A list of customers in India and abroad with details must accompany the quotations. Quotations for a prototype machine will not be accepted. (d) Original catalogue (not any photocopy) of the quoted model duly signed by the principals must accompany the quotation in the Technical bid. No prices should ever be included in the Technical bid. (e) Compliance or Confirmation report with reference to the specifications and other terms and conditions should also be obtained from the principal. (f) Information related to the agency/bidder such as photocopies of the Registration/PAN/GST/TIN shall be furnished. (g) The technical bid should consist of all technical details along with commercial terms and conditions. No prices should be included in the technical bid. Mentioning of Prices in the Technical Bid shall lead to DISQUALIFICATION. "
+          },
+          {
+            "id": "T-TECHNICAL",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 8,
+            "original_pdf_page": 8,
+            "section": "Annexure I technical specifications",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "TECHNICAL SPECIFICATIONS Sl. No. Items IIT PKD required Specification 1. DESKTOP CPU 14th Gen Intel Core i7 Memory 32 GB DDR4 Storage 1 TB SSD Graphics Integrated Wifi and Bluetooth Wi-Fi 6 (802.11 ax), Bluetooth Ports USB 3.1 or higher , HDMI, Headphone / mic combo, RJ45 Display 23.8\u201d IPS LED Monitor with HDMI input, resolution : 1920x1080p @60Hz Keyboard Wired standard keyboard Mouse Wired Optical mouse Operating System Windows 11 Pro and Linux Warranty 5 Years Onsite"
+          },
+          {
+            "id": "T-ANNEXURES",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 2,
+            "original_pdf_page": 2,
+            "section": "2 a document composition",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The Tender Document comprises of: Instruction to the bidders including terms and conditions 1. Technical Specifications (Annexure-I) 2. Undertaking by the Bidder (Annexure-II) 3. Fall Clause Notice Certificate (Annexure-III) 4. Annexure regarding Blacklisting/Debarment (Annexure-IV) 5. Self Declaration \u2013 MII Order (Annexure-V)"
+          }
+        ],
+        "latency": 0.0006099859999721957,
+        "prompt_version": "v2",
+        "cost_usd": 0,
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "5e541dadac912219",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330261.41501,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "model",
+        "prompt_version": "v2",
+        "attempt": 1,
+        "latency": 0.5102065930000208,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "cost_usd": 0.0,
+        "usage_kind": "stub_no_tokens",
+        "provider_mode": "stub",
+        "model_identifier": null,
+        "action": {
+          "tool": "corpus_search",
+          "args": {
+            "query": "startup relaxation prior turnover prior experience quality technical specifications",
+            "family": "policy",
+            "k": 4
+          }
+        },
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "2d2e3a1b0c554fb3",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330261.9264553,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "tool",
+        "tool": "corpus_search",
+        "query": {
+          "query": "startup relaxation prior turnover prior experience quality technical specifications",
+          "family": "policy",
+          "k": 4
+        },
+        "passages": [
+          {
+            "id": "P-STARTUP",
+            "family": "policy",
+            "source_id": "startup_text",
+            "file": "doe_september_2016.pdf",
+            "page": 1,
+            "original_pdf_page": 235,
+            "section": "DoE 20 September 2016 paras 2 and 3",
+            "url": "https://www.dpe.gov.in/static/uploads/2025/07/89f7e04fda067d5652584449f1e4ee18.pdf",
+            "text": "2. A doubt has arisen if it makes optional for Central Ministries/Departments to relax condition of prior experience and prior turnover in public procurement to Startups. In this regard, it is again clarified that normally for all public procurement, the Central Ministries/Departments have to ensure that criteria of prior turnover and prior experience for all Startups is relaxed subject to their meeting of quality and technical specification. 3. However, there may be circumstances (like procurement of items related to public safety, health, critical security operations and equipments, etc.) where procuring entities may prefer the vendors to have prior experience rather than giving orders to new entities. For such procurements, wherever adequate justification exists, the procuring entities may not relax the criteria of prior experience/turnover for the Startups."
+          },
+          {
+            "id": "P-MSE",
+            "family": "policy",
+            "source_id": "mse",
+            "file": "doe_july_2016.pdf",
+            "page": 2,
+            "original_pdf_page": 2,
+            "section": "DoE 25 July 2016 paras 2 and 3",
+            "url": "https://coal.nic.in/sites/default/files/2020-01/02-08-16-a.pdf",
+            "text": "2. Ministry of Micro, Small & Medium Enterprises _(MSMEs) vicie_P_alicy, Circular No. 1(2)(1)/2016-MA dated ltitff March, 2016 has clarified that all Central Ministries / Departments / Central Public Sector Undertakings (CPSUs) may relax condition of prior turnove-r--ancl\u2014Ki-orexperience with respect of Micro & Small Enterprises (MSEs) in all public procurements subject to meeting of quality and technical specifications. 3. As per Rule 160(i)(a) of GFR, 2005, there is already a provision that the bidding document should contain criteria for eligibility and qualification to be met by the bidders such as minimum level of experience, past performance, technical capability, manufacturing facilities and financial position etc. In view of above, it is further clarified that all Central Ministries I Departments may relax condition of prior turnover and prior experience in public procurement to all Startups (whether MSEs or otherwise) subject to meeting of quality and technical specifications in accordance with the relevant provisions of GFR, 2005. //:\u201e;1\\A 1 0 . / \\ To \\). The Secretaries of all Central Government Ministries/ Departments. Copy to: - Financial Advisors of all Central Government Ministries/ Departments. (Vinayak T. Likhar) Under Secretary to the Govt. of India Tel/Fax \u2014 24621305 E-mail \u2014 vinayak. likhar@nic.in"
+          },
+          {
+            "id": "G-170",
+            "family": "policy",
+            "source_id": "gfr",
+            "file": "gfr_procurement.pdf",
+            "page": 9,
+            "original_pdf_page": 48,
+            "section": "GFR 2017 Rule 170 i",
+            "url": "https://cga.nic.in/writereaddata/file/GFR2017.pdf",
+            "text": "Rule 170 Bid Security (i) To safeguard against a bidder\u2019s withdrawing or altering its bid during the bid validity period in the case of advertised or limited tender enquiry, Bid Security (also known as Earnest Money) is to be obtained from the bidders except Micro and Small Enterprises (MSEs) as defined in MSE Procurement Policy issued by Department of Micro, Small and Medium Enterprises (MSME) or are registered with the Central Purchase Organisation or the concerned Ministry or Department. The bidders should be asked to furnish bid security along with their bids. Amount of bid security should ordinarily range between two percent to five percent of the estimated value of the goods to be procured. The amount of bid security should be determined accordingly by the Ministry or Department and indicated in the bidding documents. The bid security may be accepted in the form of Account Payee Demand 49 GENERAL FINANCIAL RULES 2017 Ministry of Finance Department of Expenditure"
+          }
+        ],
+        "latency": 0.0009769040000264795,
+        "prompt_version": "v2",
+        "cost_usd": 0,
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "c343f0e295dddf14",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330261.927945,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "model",
+        "prompt_version": "v2",
+        "attempt": 1,
+        "latency": 0.5087181609999334,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "cost_usd": 0.0,
+        "usage_kind": "stub_no_tokens",
+        "provider_mode": "stub",
+        "model_identifier": null,
+        "action": {
+          "tool": "clause_lookup",
+          "args": {
+            "clause_id": "P-STARTUP"
+          }
+        },
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "d0ab9f8af0afe0b1",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330262.4379878,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "tool",
+        "tool": "clause_lookup",
+        "query": {
+          "clause_id": "P-STARTUP"
+        },
+        "passages": [
+          {
+            "id": "P-STARTUP",
+            "family": "policy",
+            "source_id": "startup_text",
+            "file": "doe_september_2016.pdf",
+            "page": 1,
+            "original_pdf_page": 235,
+            "section": "DoE 20 September 2016 paras 2 and 3",
+            "url": "https://www.dpe.gov.in/static/uploads/2025/07/89f7e04fda067d5652584449f1e4ee18.pdf",
+            "text": "2. A doubt has arisen if it makes optional for Central Ministries/Departments to relax condition of prior experience and prior turnover in public procurement to Startups. In this regard, it is again clarified that normally for all public procurement, the Central Ministries/Departments have to ensure that criteria of prior turnover and prior experience for all Startups is relaxed subject to their meeting of quality and technical specification. 3. However, there may be circumstances (like procurement of items related to public safety, health, critical security operations and equipments, etc.) where procuring entities may prefer the vendors to have prior experience rather than giving orders to new entities. For such procurements, wherever adequate justification exists, the procuring entities may not relax the criteria of prior experience/turnover for the Startups."
+          }
+        ],
+        "latency": 0.0002845800001978205,
+        "prompt_version": "v2",
+        "cost_usd": 0,
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "3c0be6248afdf244",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330262.4387481,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "research",
+        "step": "model",
+        "prompt_version": "v2",
+        "attempt": 1,
+        "latency": 0.5115901550000217,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "cost_usd": 0.0,
+        "usage_kind": "stub_no_tokens",
+        "provider_mode": "stub",
+        "model_identifier": null,
+        "action": {
+          "tool": "handoff",
+          "args": {}
+        },
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "5ff567579cf16113",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330262.951756,
+        "process_id": 1,
+        "service_instance": "7fdea5f5d4c9"
+      },
+      {
+        "agent": "verification",
+        "step": "verification",
+        "errors": [],
+        "verified": true,
+        "latency": 0.0003254680000281951,
+        "prompt_version": "v2",
+        "cost_usd": 0,
+        "trace_id": "2a81fd684783fd146e29dd5ddf1ce096",
+        "span_id": "915e432a62dfacd6",
+        "run_id": "dd517d0c44714770b69dbba358d3244b",
+        "time": 1793330262.9974673,
+        "process_id": 1,
+        "service_instance": "d3682f7547e7"
+      }
+    ]
+  },
+  "feedback_count": 1,
+  "browser_actions": "submitted startup example; saw both tender/policy citations; saved clearly labelled fictional feedback",
+  "profile": "HTTP delayed stub; not real inference"
+}

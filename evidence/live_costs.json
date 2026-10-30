@@ -1,0 +1,4791 @@
+{
+  "provider_mode": "real local inference",
+  "provider_fees_usd_per_100_runs": 0,
+  "electricity_and_hardware_included": false,
+  "rows": [
+    {
+      "variant": "before",
+      "case": "01_standard",
+      "run_id": "eval-v1-01_standard-104c689f",
+      "prompt_tokens": 1672,
+      "completion_tokens": 188,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 9.471317365999994,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "c31b2be76e0810661fea7768b9a36f45",
+          "span_id": "8ea6b27b4777282d",
+          "run_id": "eval-v1-01_standard-104c689f",
+          "time": 1793300870.953976,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.572055781000017,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "6905e6f95afd4deb8a50f950a1619f84",
+          "span_id": "73fca55929dae308",
+          "run_id": "eval-v1-01_standard-104c689f",
+          "time": 1793300877.532548,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.565033804999985,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "453000cb08823bdd9d54340a07146634",
+          "span_id": "38757337307a78f0",
+          "run_id": "eval-v1-01_standard-104c689f",
+          "time": 1793300885.3216283,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.828410144999907,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "e6dc9f6d3171e34c305ed82123f8ea41",
+          "span_id": "d9fbcb0c99509b9c",
+          "run_id": "eval-v1-01_standard-104c689f",
+          "time": 1793300893.153198,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.9892159399998945,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "ba179e17fd07b88bb3f880a893520083",
+          "span_id": "8f343a4437bda949",
+          "run_id": "eval-v1-01_standard-104c689f",
+          "time": 1793300901.147162,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "02_exact_turnover",
+      "run_id": "eval-v1-02_exact_turnover-e83cc186",
+      "prompt_tokens": 2087,
+      "completion_tokens": 204,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.6467263649999495,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:2400000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "77f6dee617f16839ba8feb2d13fa02ac",
+          "span_id": "33d1bc535d187adb",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300914.149612,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.368804564000129,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "79b318575e0b718e3c1a432545dd9147",
+          "span_id": "cfabdaeed2de34cd",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300920.522344,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.994058402999826,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b07f97dc6a88deca8023f242d92cddf1",
+          "span_id": "4aa1b04e61f3ff66",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300927.519234,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.367185111000026,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "5b9c8fdabdd293596641e8aec8832650",
+          "span_id": "4626ba67cd6c3c5b",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300935.8916576,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.708704119999993,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "175f8aa827433838486eeb05ac91ddaa",
+          "span_id": "d599c6c618600088",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300944.6050558,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.647160944000007,
+          "prompt_tokens": 415,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "a27b3c6afc22c349c733bafcbeee0638",
+          "span_id": "4de2dce04bf1955b",
+          "run_id": "eval-v1-02_exact_turnover-e83cc186",
+          "time": 1793300951.256624,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "03_low_turnover",
+      "run_id": "eval-v1-03_low_turnover-1346214a",
+      "prompt_tokens": 1672,
+      "completion_tokens": 188,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.542162758999893,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:2399999.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "79d8617d581376b01fc14bfb1c344830",
+          "span_id": "465b14b2dfac8c4a",
+          "run_id": "eval-v1-03_low_turnover-1346214a",
+          "time": 1793300959.8037074,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.58365710399994,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "f32eb59cd80c6e66a3213ed26db84852",
+          "span_id": "c54199737a3cb2b1",
+          "run_id": "eval-v1-03_low_turnover-1346214a",
+          "time": 1793300966.3914926,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.339299717999893,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "85179542d622e78cd5fb4497fb8c8ab7",
+          "span_id": "0f1cdd79df79c62f",
+          "run_id": "eval-v1-03_low_turnover-1346214a",
+          "time": 1793300973.7335386,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.070707386000095,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "d988ea8195650c4602dc6faef68c6ded",
+          "span_id": "a5c9eea55af73970",
+          "run_id": "eval-v1-03_low_turnover-1346214a",
+          "time": 1793300981.8087814,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.976046558999997,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "eadae8e9de56b56da9ca2892d052889d",
+          "span_id": "69c378269534f8bc",
+          "run_id": "eval-v1-03_low_turnover-1346214a",
+          "time": 1793300990.7898588,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "04_few_orders",
+      "run_id": "eval-v1-04_few_orders-d66dcbf0",
+      "prompt_tokens": 2511,
+      "completion_tokens": 248,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.615905455000075,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "ebaf67607a1c28d0c7623295f25ddcbc",
+          "span_id": "d8586cd5dd056a4c",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301004.006939,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.693363981000175,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "c666a85c1735c3ee7d8888b5ba7e346b",
+          "span_id": "78367a01f6f3481b",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301010.7036576,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.813253240999984,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "a0dd434c9db7fb6be7205f60d348472c",
+          "span_id": "7898315cc9db6fdc",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301018.5240963,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.5880219089999628,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "45515eea352200adc3f7413bd16cf54d",
+          "span_id": "25439dc8c764452a",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301022.118987,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.4666464950000773,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "732a1eacbdc577cca88cf4a2fe864137",
+          "span_id": "7439f51211cb2029",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301025.589212,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.491179625000086,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "9405e491a4410b5e05ae19b6d12e76eb",
+          "span_id": "ffe103fee52bba6a",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301029.0831645,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.799331080999991,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b7f809de1d9151b609ad04c6136c39e9",
+          "span_id": "5550c70b87f53899",
+          "run_id": "eval-v1-04_few_orders-d66dcbf0",
+          "time": 1793301036.8854983,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "05_no_emd",
+      "run_id": "eval-v1-05_no_emd-711ac510",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.618793783000001,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "2ac281cc522b17dcb832be3b7155fc4b",
+          "span_id": "512364a1c35c45b3",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301049.1239636,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.52160948300002,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "ea9642c36c5c96e68be2104a44188838",
+          "span_id": "f568b1c313f0b95c",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301055.6479383,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.104825299999902,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "ff532f178be6c1281ba35b17450dfcd7",
+          "span_id": "8fbdfe2f31bc3bcd",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301062.756944,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.73258927400002,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c5792e1baef437a4bfcbd712e5caa8e2",
+          "span_id": "f4a744d003fd1dd2",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301066.4921305,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 4.188945754000088,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "50e95565f8d8bf93f690c9d75ae90b5c",
+          "span_id": "05ee76dfc19278de",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301070.684157,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.5095169209998858,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "1d511749abe0d5b6ebbc22a02b05c626",
+          "span_id": "f79bd09cc1eb5bba",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301074.1976178,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.256320851000055,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "11a44556260d7cebc201781a3e04e7b7",
+          "span_id": "9cdd2e8c2e768fe0",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301077.4567778,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.9352384430001166,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "483bde5adf7023b8715a5942849659ec",
+          "span_id": "f15bcbaa857da183",
+          "run_id": "eval-v1-05_no_emd-711ac510",
+          "time": 1793301079.394763,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "06_startup_low_turnover",
+      "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+      "prompt_tokens": 1672,
+      "completion_tokens": 186,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.257857011999931,
+          "prompt_tokens": 230,
+          "completion_tokens": 50,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:startup average_turnover_inr:1000000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "c8ff1f4bbf15324b24f1d53a4ea97c09",
+          "span_id": "91f694aef40561b1",
+          "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+          "time": 1793301086.667184,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.239360266999938,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "61989399c422c53d3c8435b32528fd9f",
+          "span_id": "c3a1fb408d81510c",
+          "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+          "time": 1793301094.9107742,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.311272843000097,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "32fb2f743c083a472604d3727f5dea7a",
+          "span_id": "21a4e5966b221a82",
+          "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+          "time": 1793301102.226536,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.250793766000243,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "4cc49d67ac4627cd94003527e3af96db",
+          "span_id": "2cf7b4fb0a40ce0d",
+          "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+          "time": 1793301110.4810517,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.689276265999979,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "ad17ba7859256a764e4e127a31223de7",
+          "span_id": "20bf3f8faaa3776b",
+          "run_id": "eval-v1-06_startup_low_turnover-1f0e4c59",
+          "time": 1793301119.1729183,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "07_startup_low_experience",
+      "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+      "prompt_tokens": 1672,
+      "completion_tokens": 186,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.033186261000083,
+          "prompt_tokens": 230,
+          "completion_tokens": 50,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:startup average_turnover_inr:3000000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "5c695ccc2ed27af89e434f9e6b8a3a14",
+          "span_id": "b36858d070775940",
+          "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+          "time": 1793301132.6256025,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.8144570209997255,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "28dad18648c9e904dfe45fc84aa49967",
+          "span_id": "0f0ce203299d0347",
+          "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+          "time": 1793301140.4443672,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.918825276000007,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "bd19a42b18bbcea44c0730d0fb6049f0",
+          "span_id": "97779d0d67f68141",
+          "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+          "time": 1793301148.3694968,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.076345377000052,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "70811ff980467db7ba94dbb06fd94c25",
+          "span_id": "eb1bc9c126998231",
+          "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+          "time": 1793301156.4496534,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.890942638999604,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "4cbc49d50d3c835b7619b2919b287c19",
+          "span_id": "46d362b6a43ebc62",
+          "run_id": "eval-v1-07_startup_low_experience-26e6726c",
+          "time": 1793301164.3431396,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "08_mse_low_turnover",
+      "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+      "prompt_tokens": 2081,
+      "completion_tokens": 213,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.4773753330000545,
+          "prompt_tokens": 229,
+          "completion_tokens": 44,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category=mse,average_turnover_inr,phase",
+              "family": "tender"
+            }
+          },
+          "trace_id": "213e9f8cc577834dcb7b19493cb3806d",
+          "span_id": "c07cef7b8229ec25",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301176.210479,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.6951506209998115,
+          "prompt_tokens": 250,
+          "completion_tokens": 49,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "5bde34f6d214f10d6e0eae68d182df0d",
+          "span_id": "3a84cec4e0ac540e",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301182.908628,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.444061017999957,
+          "prompt_tokens": 387,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "74aafbfc7ee78dec89b6be0174a7d379",
+          "span_id": "50f512d838c5f91c",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301190.4412525,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.74151384400011,
+          "prompt_tokens": 396,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "116859941c7bf6b472125d6ea305901d",
+          "span_id": "74105209c1156fe5",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301198.186673,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.866367105000336,
+          "prompt_tokens": 405,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "2ab480cd8137200ea1970a7e612d9cbb",
+          "span_id": "96d3308f00c5563a",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301206.0579298,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.749474133000149,
+          "prompt_tokens": 414,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "59615dca36ec6dd96272ecf97c043a8a",
+          "span_id": "8ada12d37d8d090b",
+          "run_id": "eval-v1-08_mse_low_turnover-6a570fb0",
+          "time": 1793301213.8109791,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "09_mse_low_experience",
+      "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+      "prompt_tokens": 1672,
+      "completion_tokens": 191,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 10.403724596999837,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category=mse,average_turnover_inr=3000000.0,phase=0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "ae5c3aa168b34869b4c05ec7ccb74e3b",
+          "span_id": "c7868f3bdc88ecf1",
+          "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+          "time": 1793301225.2583325,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.220270012999663,
+          "prompt_tokens": 251,
+          "completion_tokens": 49,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "35b2c67da9678b6e093cde76a5f39d2c",
+          "span_id": "8d6638c628e63ac3",
+          "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+          "time": 1793301232.482999,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.042964817999746,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b75c3ee3023fdf1aa2cda32df3d49b9f",
+          "span_id": "7aae884751a2808f",
+          "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+          "time": 1793301239.5289388,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.666687521999847,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "5842ac1e3d5baa999e9e336ab8dab190",
+          "span_id": "a2e025ed76eed5ea",
+          "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+          "time": 1793301247.1989684,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.727244714000335,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "81f410e8216f910c6e9c8a4ac05fc4b2",
+          "span_id": "8c142067de1346d3",
+          "run_id": "eval-v1-09_mse_low_experience-3a53c4b5",
+          "time": 1793301254.9296196,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "10_missing_pan",
+      "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.514208863000022,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "bd327063ca9b346c2cf0a75d844b9790",
+          "span_id": "fb931b9bbfd8e8a0",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301267.50085,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.638320014999863,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "0c64b4cf40fb0e9f981170baa321f060",
+          "span_id": "968f221364aea5aa",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301274.1418855,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.865393719000167,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "a80c75db9d0f7f6137b748e7a83313a6",
+          "span_id": "cdfae97e4a0e1e2d",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301281.010994,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.5981520929999533,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "80915ee9ddbd20c9f5d44d66bc92de59",
+          "span_id": "686d84851b38c118",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301284.6126792,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.100232600000254,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "bb5f01505e8dc08f1543315c242f89bb",
+          "span_id": "cca0ede0d8be3519",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301287.7156997,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.456143204,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "84ceed1f153374a628fdf256e96a1b48",
+          "span_id": "cf25c4838a336652",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301291.1756027,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.547991425999953,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "dcb7fc62da2b6ed3fadbf103deb6e228",
+          "span_id": "4c16b3f3e3ffc724",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301294.7268,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.8717157329997463,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "ad81d73ae6ee1f39b2ff4ffab884299b",
+          "span_id": "2e409b587dc3eb6d",
+          "run_id": "eval-v1-10_missing_pan-cbf3c34f",
+          "time": 1793301296.601838,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "11_unknown",
+      "run_id": "eval-v1-11_unknown-88025da2",
+      "prompt_tokens": 2087,
+      "completion_tokens": 218,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.744489937000253,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:unknown,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "8182d9e09c4eed3bd559da168b65b86b",
+          "span_id": "c429f02b95a85e52",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301303.3510578,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.748294044999966,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "b94be46322e27fbeb95ee3f53ebd879f",
+          "span_id": "0119fe6a2e0d693d",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301309.1074984,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.317375249999714,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "65e889e34710e712602984a213ffc283",
+          "span_id": "3f40cd3447f2d158",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301315.4289725,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.681221015000119,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b94e258ed9463a05c37698df77e32e3e",
+          "span_id": "7bb140c61e3cda61",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301322.1134572,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.94290005799985,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b756e59a796dbc77901be62606de4c22",
+          "span_id": "b7ed5456de6415f4",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301329.060607,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.11140500800002,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "65003786a69637f7fbe24b25e8ab3c19",
+          "span_id": "d0e264a03f77fb1c",
+          "run_id": "eval-v1-11_unknown-88025da2",
+          "time": 1793301336.1746988,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "12_consortium",
+      "run_id": "eval-v1-12_consortium-c2cdb5fe",
+      "prompt_tokens": 2099,
+      "completion_tokens": 218,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.3326690850003615,
+          "prompt_tokens": 232,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:consortium average_turnover_inr:3000000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "5e99bb698709c93fa7bd083aefefb6be",
+          "span_id": "eb6d5a38a3ea6bd5",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301348.0596647,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.479998386999796,
+          "prompt_tokens": 253,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "76a1587c2e34b179383f50ae49888b32",
+          "span_id": "716833a7633f2d5d",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301353.5431592,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.29491668899982,
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "85e4b65b9d4f10c862d6a630ec68853b",
+          "span_id": "a2e038d4424105bc",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301359.8412004,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.637087400999917,
+          "prompt_tokens": 399,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6ba556ede12613fc24f8bf27ea8c986b",
+          "span_id": "fd7283993442b920",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301366.4812627,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.992503427999964,
+          "prompt_tokens": 408,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b175bbbbbb624345b46e416a150e760c",
+          "span_id": "9800f4b2e48b6c3c",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301373.478494,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.122044998000092,
+          "prompt_tokens": 417,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "1300d6daf1aadc816df0f4f83d5acb9a",
+          "span_id": "48da52f73ff0f649",
+          "run_id": "eval-v1-12_consortium-c2cdb5fe",
+          "time": 1793301380.60344,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "13_foreign",
+      "run_id": "eval-v1-13_foreign-ffe2fe41",
+      "prompt_tokens": 2087,
+      "completion_tokens": 218,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 8.000021274999654,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:foreign,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "7bb3844b6f83f052a8a1dc9b49829460",
+          "span_id": "662d706cdc8ab2dd",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301394.8579364,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.544824752000295,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "30484b589bfc13bfbe70f09510fdd1ff",
+          "span_id": "fe1889f67b441767",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301400.4057038,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.282739952000156,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "d048084dd475306ec490b74162188b6e",
+          "span_id": "b0c1c0c3fd373bfb",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301406.691259,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.992991298000106,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "04a7b929fdd95cc6987fb8ad1a0b4ad5",
+          "span_id": "e6d6caeeb3f669da",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301413.6870728,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.928492109999752,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "78ebc438504dce9e04f53723beba63b7",
+          "span_id": "8183bb7f47cf920c",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301420.6184638,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.998121659999924,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c7093e1595ecb4a6504ab6fc8f6292c1",
+          "span_id": "7dfe4432213979a7",
+          "run_id": "eval-v1-13_foreign-ffe2fe41",
+          "time": 1793301427.619451,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "14_local_low",
+      "run_id": "eval-v1-14_local_low-3e0352eb",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.294641687999956,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "84be57c47798974621466acd27a41f3a",
+          "span_id": "3d46bbf83e63b99a",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301438.2861931,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.627535708999858,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "cd0ef623bb9f114af84eaa3c6f78ed99",
+          "span_id": "1dcdc641f1c29d62",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301443.9168994,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.273750318999646,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "8c93c04c358c88671e49cbae0f66170e",
+          "span_id": "d047caa9cfc246e1",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301450.1942027,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.837352937000105,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "ac27c16c969659c8efbbf4db77cebe89",
+          "span_id": "c47999e3300d1594",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301453.0344834,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.79191812199997,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6b2044a3551314866a1653e96423e1c7",
+          "span_id": "62a738a49687a965",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301455.8302474,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.9157215400000496,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6e19efec1050749a1c8ea4eb014e6ab3",
+          "span_id": "dd3b99bd51170acb",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301458.748766,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.946159579000323,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "db320ffeab212b4277da60702d52fa0b",
+          "span_id": "450adc4778e282f9",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301461.6994104,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.025235708999844,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "2df8f818456475bbcb335d0f2437ab1c",
+          "span_id": "b101bf199b115f91",
+          "run_id": "eval-v1-14_local_low-3e0352eb",
+          "time": 1793301463.727443,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "15_local_boundary",
+      "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.90247917600027,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "0caa1c10898a284a23cbac7c1bca0804",
+          "span_id": "16d237a34edd9a58",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301469.6365902,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.731231117000334,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "13265112a11a4eb02f919fdc9178cbcc",
+          "span_id": "7f564f08e33e931c",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301475.371919,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.587433762999808,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "becb107549a04fd6c8e9b2aeae3cfedf",
+          "span_id": "b2fd8b51440da50f",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301481.9627094,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.3197745960001157,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "d4fec3a5ba2a1ad170df78e22aca1458",
+          "span_id": "60365e7d039634be",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301485.2853918,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.85561195199989,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "02f23c805accdf9148d9e555e370b6e8",
+          "span_id": "eeac715466e51ce5",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301488.1443024,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8683311429999776,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "86995c419d85b2abf4251017563c8588",
+          "span_id": "0961eb0a82d36cb9",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301491.0152583,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.9232978290001483,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "74eaed00525a8e5ca31e9bf9e7128bc2",
+          "span_id": "c675ce5666ef10ec",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301493.9426315,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.6081246260000626,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "7e5fd391049863e686ec2a8620a15d1b",
+          "span_id": "032c5b1ff686e053",
+          "run_id": "eval-v1-15_local_boundary-4f15f5c2",
+          "time": 1793301495.5532007,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "16_technical_unknown",
+      "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.6013584910001555,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "6f4b4cc8399164d89ef6402c9c13df0e",
+          "span_id": "2d5f89620a210eb9",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301501.1603909,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.5664246999999705,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "4b8776469c31dbc430fecd2105c47a63",
+          "span_id": "f6e9fa8d1bf67271",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301506.730611,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.3554598480000095,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "26c774b531b40142032aabdc27cdf1e7",
+          "span_id": "975c743e01864782",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301513.0892515,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8873854720000054,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "8bd8a0d2404758403da68e908069316f",
+          "span_id": "b0fcca6ee501a3b4",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301515.9804242,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.7801496080001016,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c6fed0be1440d91c46a5b53ce2e6a85b",
+          "span_id": "2e39de63f08a42af",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301518.7640562,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.75786391299971,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "9142a9c9c6aa06e8cea3d75303ee65b9",
+          "span_id": "02a530c3e93b0abc",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301521.5255709,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8193629149996013,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "7fb9bd44e3092c7e82fdc6e84c9a6a43",
+          "span_id": "f687b1c9192f4cfb",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301524.3480952,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.6075449920003848,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "761341eb9c1836bca887caebc5b46e42",
+          "span_id": "bb6774c68a7164bc",
+          "run_id": "eval-v1-16_technical_unknown-0e207dd6",
+          "time": 1793301525.9604964,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "17_startup_no_proof",
+      "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+      "prompt_tokens": 2944,
+      "completion_tokens": 262,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.74642225100024,
+          "prompt_tokens": 230,
+          "completion_tokens": 50,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:startup average_turnover_inr:3000000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "b033eed84b74ec653a215c40932fdbb0",
+          "span_id": "509f4946904816c6",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301531.7105572,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.53272720599989,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "beac29b6cbcdb12df153e20a319c84aa",
+          "span_id": "61bf17b36c84ac34",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301537.2458847,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.279028774999915,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "f6ac88ed0fa628a28c8a0c56a2a42b5a",
+          "span_id": "50f56ac77ff3f2a9",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301543.5279386,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.0503364609999153,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "fefac0cd57b0556fc7328768251a033e",
+          "span_id": "2e2f89a7e6c61650",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301546.581458,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.9361322449999534,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "43d37bd21840514bc1b218360ede8f34",
+          "span_id": "f8fde963dc4942b8",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301549.521018,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.965131872999791,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "5c34ebd51f5a2c0783fbf954fd02d539",
+          "span_id": "24e8e0dcf4e08015",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301552.4894452,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.865457559999868,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6aaa4738ba98e3b0c5a6260115976495",
+          "span_id": "6759819697ad8490",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301559.3574655,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.449035425999682,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "de9c6f13c87719ce588a0d2943012833",
+          "span_id": "58791c76ff119abe",
+          "run_id": "eval-v1-17_startup_no_proof-57f5e090",
+          "time": 1793301565.8094695,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "18_mse_emd_claim",
+      "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+      "prompt_tokens": 2944,
+      "completion_tokens": 259,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.320689782000045,
+          "prompt_tokens": 230,
+          "completion_tokens": 44,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category=mse,average_turnover_inr,phase",
+              "family": "tender"
+            }
+          },
+          "trace_id": "e47acc89f9a992b7cd3930ab9c57a85c",
+          "span_id": "657dfdf81e213bc6",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301571.1367176,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.786320264000096,
+          "prompt_tokens": 251,
+          "completion_tokens": 49,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "c3beadaf7040c163778172ece2c071fe",
+          "span_id": "d688fffe8122b3c7",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301576.9257276,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.264296889999969,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "7583e3a094fc076ab558caba78a91a1c",
+          "span_id": "97737db06c1319c0",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301583.1936617,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.369254218000151,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b413172c15d2f66dfe7e9b0804a907e9",
+          "span_id": "4f2e6dfde5bd5f0f",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301586.5664573,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.1176672439996764,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "43cc559dee90f2db3373a51697d54837",
+          "span_id": "70aa4403a0462594",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301589.6877036,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.602064966999933,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "52db4a1de4e1b4c1e0b1c998f56706ed",
+          "span_id": "b9f5676281041143",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301593.2932096,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.975402265000412,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "0e950e9aa39f604bd5625d6658cb0167",
+          "span_id": "05e2cdd4847a5586",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301600.271986,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.999939904000257,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "eff4e8fd0517db99b4225200d4e43508",
+          "span_id": "408581f850a0d00f",
+          "run_id": "eval-v1-18_mse_emd_claim-0dd8925a",
+          "time": 1793301606.2749379,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "19_startup_emd",
+      "run_id": "eval-v1-19_startup_emd-37d21865",
+      "prompt_tokens": 2944,
+      "completion_tokens": 262,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.570515459000035,
+          "prompt_tokens": 230,
+          "completion_tokens": 50,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:startup average_turnover_inr:3000000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "8ca1b31a07de7394ec5563762d7aed7d",
+          "span_id": "0bc0e873c3304f49",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301611.8510828,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.76820048899981,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "4fb278663082bcf0b9c55a2a41c7ec0a",
+          "span_id": "cf361a2902df4615",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301617.6224358,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.477770915000292,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "3e2dc0be8252b98648893058bca15f49",
+          "span_id": "1138d0bf37111820",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301624.1052053,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8589185830001043,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "73e088d7696a582033f64470c87b4e83",
+          "span_id": "895012f543cb3046",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301626.9682481,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.858695164999972,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c5df4932c273c0cfe51b8080bf0cdee3",
+          "span_id": "d88f8629539d6cbd",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301629.8296525,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.7569735410002068,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "33778576e935fbb58e3b20b0a56b45cd",
+          "span_id": "c2cccf9e34c0df96",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301632.5899575,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.888285481999901,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "d576e1ed1729ce45790ca47138fc02ff",
+          "span_id": "bda2cad8b992f1aa",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301635.481012,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.5840232099999412,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "60967b1959dd93ed9f64aae42baf6ac0",
+          "span_id": "f7550a886347a076",
+          "run_id": "eval-v1-19_startup_emd-37d21865",
+          "time": 1793301637.0736976,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "20_large_uneven_turnover",
+      "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.723865459000081,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "f6aa5bbbf2059febb70a3e7376adca75",
+          "span_id": "eb151c039ab9f44c",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301642.803147,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.643683161999888,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "4ed11a4e89b9e8bfb869a72718dcdbbd",
+          "span_id": "883affaec62b8828",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301648.4497247,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.313551656000072,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "e0aff8da5b9517fbe89e7010614ef652",
+          "span_id": "7529949f390d284d",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301654.7667356,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.0224813600002562,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "16cc296fbc41eb34b8a7d865b6165506",
+          "span_id": "e4d248aa60c6eeb0",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301657.7952166,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.787375622000127,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "0c43a7fe07683ff55e3f9429827f127b",
+          "span_id": "ffd56c4c3afa2f71",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301660.5871015,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.776699654999902,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "e522eaabeaee5a4ae8dec9027c074ee9",
+          "span_id": "89b0162dbb5e995d",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301663.366855,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.841332498000156,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "10cbcb087653636d013bf3ccee746e05",
+          "span_id": "f46ed8a06c59bd50",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301666.2107787,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.567710301000261,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "8adc521b25769680fb1ff143d63d201f",
+          "span_id": "a650466cd443c65a",
+          "run_id": "eval-v1-20_large_uneven_turnover-cec1d2c9",
+          "time": 1793301667.785996,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "21_mse_ordinary",
+      "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+      "prompt_tokens": 2944,
+      "completion_tokens": 259,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.951584460000049,
+          "prompt_tokens": 230,
+          "completion_tokens": 44,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category=mse,average_turnover_inr,phase",
+              "family": "tender"
+            }
+          },
+          "trace_id": "bb5ec8851bdff3fd4fe697e13477f64d",
+          "span_id": "3640ef56d14fcabc",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301673.7435226,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.947815633999653,
+          "prompt_tokens": 251,
+          "completion_tokens": 49,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "4815da9c594e0b85f31b92a680b6fd88",
+          "span_id": "541d6b8419b67889",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301679.6953542,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.652671137000198,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6bafdb3b0d7f9560cff3e49ea6520922",
+          "span_id": "50292ade78444d57",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301686.35066,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.852115966999918,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "bed36094361a2586253733613c4ed299",
+          "span_id": "00b693fce31aa595",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301689.2068255,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8091262979996827,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "23d72b2335eb1d2d76771d52b20a5537",
+          "span_id": "22682b1aa37865d6",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301692.0189483,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8062488600003235,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "6e1b415faec21c88241a7b713327ed61",
+          "span_id": "cd5f078c5daf3723",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301694.827709,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.2959322710003107,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "4ac6dd9c1d8a6680ed29fee2898c95e6",
+          "span_id": "faaf28f1b6f089b7",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301698.1261752,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.8075148630000513,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "eb3cce58723c37748aad4f6fd8ba3839",
+          "span_id": "ac094e5e5c703845",
+          "run_id": "eval-v1-21_mse_ordinary-f5a80e94",
+          "time": 1793301699.9374306,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "22_startup_both",
+      "run_id": "eval-v1-22_startup_both-0c4ea871",
+      "prompt_tokens": 2081,
+      "completion_tokens": 215,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.2911363480002365,
+          "prompt_tokens": 229,
+          "completion_tokens": 49,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:startup average_turnover_inr:100000.0 phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "9524618b50ad01504bedaaee8063b38e",
+          "span_id": "2537fc1c9f6d8c12",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301706.2345006,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.973326967000048,
+          "prompt_tokens": 250,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "b11607fca63a669bfbdedce875cef793",
+          "span_id": "1805f583e201e5c5",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301712.2103677,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.923841101000107,
+          "prompt_tokens": 387,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "e08415c88a9db98461c97f5720391b2e",
+          "span_id": "13da0ec13d7e4b8d",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301719.137981,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.4885670979997485,
+          "prompt_tokens": 396,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b07020e4cdc7abb79de4f04cba9b4899",
+          "span_id": "789ade1eaa92f9af",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301725.6288288,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.940898477000246,
+          "prompt_tokens": 405,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "f62cba981083e325d182bbe1b22de391",
+          "span_id": "c8c345e782760726",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301732.5726962,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 7.006591632999971,
+          "prompt_tokens": 414,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c78c95cd412c1781899037f60845e2dd",
+          "span_id": "face33c5dbaab270",
+          "run_id": "eval-v1-22_startup_both-0c4ea871",
+          "time": 1793301739.5823402,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "23_empty_documents",
+      "run_id": "eval-v1-23_empty_documents-de372004",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.034386670999993,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "79b9ee51da2d7fdd84818f576c30d4f9",
+          "span_id": "421bb606fd1fd03f",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301751.1151252,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.424344608999945,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "490550f76411f1eac7245d88cbb604f4",
+          "span_id": "2ffda0d1f5b28c22",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301756.5425205,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.388608421999834,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b85d46be3ee4b6fe24fe47cf03d318d0",
+          "span_id": "2316719ef8f9cf66",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301762.9342582,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8792547870002636,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "49505dc0ad6b692d0b70e28b769038a5",
+          "span_id": "09429f3d1c8b51ea",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301765.8168411,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8226207360003173,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "27953631d2bd0b6c03bb53b7335d9e83",
+          "span_id": "fc7ddeb969b47458",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301768.6425765,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.8731329849997564,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "b101066839cbd1cf9d5ca8b959717953",
+          "span_id": "65bc7ae2b1bc2b99",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301771.518462,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.874219988999812,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "a9e88909f0d2bd4d591febe20c186882",
+          "span_id": "bed58bdcdc14daf2",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301774.3959496,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 1.585088387000269,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "6fc485a4b7df341ba29b1fb99e556618",
+          "span_id": "4fbf2f4f2a8498ad",
+          "run_id": "eval-v1-23_empty_documents-de372004",
+          "time": 1793301775.9902039,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "before",
+      "case": "24_missing_authorization",
+      "run_id": "eval-v1-24_missing_authorization-b6a43622",
+      "prompt_tokens": 2944,
+      "completion_tokens": 264,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.762716899999759,
+          "prompt_tokens": 230,
+          "completion_tokens": 52,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "query": "bid_category:large,average_turnover_inr:3000000.0,phase:0",
+              "family": "tender"
+            }
+          },
+          "trace_id": "bb078b1d4a8ffe377e35840a1693ed14",
+          "span_id": "d8f2c44c56205dec",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301781.757501,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 5.412130927999897,
+          "prompt_tokens": 251,
+          "completion_tokens": 46,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "af4f594eebed088d25551c61232d8d2c",
+          "span_id": "49d3cb141499d29d",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301787.1726892,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 6.3780051040002945,
+          "prompt_tokens": 388,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "c36f1f50b9d80d45f04ff26021b19c4c",
+          "span_id": "9482d52fd99fdf5c",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301793.553143,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.7388129159999153,
+          "prompt_tokens": 397,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "df57d02d91eabcca66ff46f95ebf4047",
+          "span_id": "abcc4635af5e64d2",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301796.2947392,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 4.275504357000045,
+          "prompt_tokens": 406,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "dddeb5f4bc66968c1788b4e5bd19e931",
+          "span_id": "ad83801ff5548bed",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301800.5729544,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.4016461789997265,
+          "prompt_tokens": 415,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "717f43592f78f4ef53cc56c675e8673f",
+          "span_id": "494417ef080fb44b",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301803.9773831,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 3.8996194569999716,
+          "prompt_tokens": 424,
+          "completion_tokens": 30,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "clause_lookup",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "d3ea108fe382a6976f1929cf8e2d689f",
+          "span_id": "7ea919c12ae3b345",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301807.8795261,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v1",
+          "attempt": 1,
+          "latency": 2.0002773440000965,
+          "prompt_tokens": 433,
+          "completion_tokens": 16,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "ae588c099562da6ee532ed37b71951ef",
+          "span_id": "abc75d79385a28b4",
+          "run_id": "eval-v1-24_missing_authorization-b6a43622",
+          "time": 1793301809.886216,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "case": "01_standard",
+      "run_id": "eval-v2-01_standard-24889457",
+      "prompt_tokens": 1052,
+      "completion_tokens": 82,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 6.052828875000159,
+          "prompt_tokens": 291,
+          "completion_tokens": 19,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "clause_id": "bid_category"
+            }
+          },
+          "trace_id": "7d38fd95552fbf8ec4f4222104fcbc27",
+          "span_id": "1013896e20e34734",
+          "run_id": "eval-v2-01_standard-24889457",
+          "time": 1793301815.9683464,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 8.090790415000356,
+          "prompt_tokens": 312,
+          "completion_tokens": 39,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "0533be8ade4a7e6e706576a56c1b36b4",
+          "span_id": "dbdc34ab8575adda",
+          "run_id": "eval-v2-01_standard-24889457",
+          "time": 1793301824.063322,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 8.934998958000051,
+          "prompt_tokens": 449,
+          "completion_tokens": 24,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "67366bb3b6f7f92d3070955e63c07037",
+          "span_id": "499ff8148f87479e",
+          "run_id": "eval-v2-01_standard-24889457",
+          "time": 1793301833.0034645,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "case": "02_exact_turnover",
+      "run_id": "eval-v2-02_exact_turnover-113d0978",
+      "prompt_tokens": 1052,
+      "completion_tokens": 83,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 4.401836147999802,
+          "prompt_tokens": 291,
+          "completion_tokens": 19,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "clause_id": "bid_category"
+            }
+          },
+          "trace_id": "03ca66c4c610c81d96ea2a37c21f14ff",
+          "span_id": "e2b21b0dd754f50b",
+          "run_id": "eval-v2-02_exact_turnover-113d0978",
+          "time": 1793301837.413318,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 10.98126430900038,
+          "prompt_tokens": 312,
+          "completion_tokens": 39,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience EMD documents and local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "1ce3cacf8f88d07fd90dcf22e2f9d7e2",
+          "span_id": "bbbf1a1db7aec05d",
+          "run_id": "eval-v2-02_exact_turnover-113d0978",
+          "time": 1793301848.3989305,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 9.126840740999796,
+          "prompt_tokens": 449,
+          "completion_tokens": 25,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "handoff",
+            "args": {
+              "clause_id": "T-TURNOVER"
+            }
+          },
+          "trace_id": "abad84412c385932f75b05903fcb9c66",
+          "span_id": "0f2f255621d6321b",
+          "run_id": "eval-v2-02_exact_turnover-113d0978",
+          "time": 1793301857.5341241,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "case": "03_low_turnover",
+      "run_id": "eval-v2-03_low_turnover-1b0888bf",
+      "prompt_tokens": 291,
+      "completion_tokens": 19,
+      "cost_usd": 0,
+      "calls": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 8.835842556999978,
+          "prompt_tokens": 291,
+          "completion_tokens": 19,
+          "cost_usd": 0.0,
+          "usage_kind": "provider_reported",
+          "provider_mode": "local",
+          "model_identifier": "llama3.2:latest",
+          "action": {
+            "tool": "request_fields",
+            "args": {
+              "clause_id": "bid_category"
+            }
+          },
+          "trace_id": "b372f399c807e03fb24244ae68cf168e",
+          "span_id": "c1999428936241aa",
+          "run_id": "eval-v2-03_low_turnover-1b0888bf",
+          "time": 1793301866.377945,
+          "process_id": 112,
+          "service_instance": "d8828f123252"
+        }
+      ]
+    },
+    {
+      "variant": "after",
+      "case": "04_few_orders",
+      "run_id": "eval-v2-04_few_orders-e0a59ff1",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "05_no_emd",
+      "run_id": "eval-v2-05_no_emd-94e05570",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "06_startup_low_turnover",
+      "run_id": "eval-v2-06_startup_low_turnover-31f99cc2",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "07_startup_low_experience",
+      "run_id": "eval-v2-07_startup_low_experience-99e0da2f",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "08_mse_low_turnover",
+      "run_id": "eval-v2-08_mse_low_turnover-9699d104",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "09_mse_low_experience",
+      "run_id": "eval-v2-09_mse_low_experience-c6affca1",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "10_missing_pan",
+      "run_id": "eval-v2-10_missing_pan-0370497d",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "11_unknown",
+      "run_id": "eval-v2-11_unknown-c895f9f5",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "12_consortium",
+      "run_id": "eval-v2-12_consortium-538cde71",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "13_foreign",
+      "run_id": "eval-v2-13_foreign-a3fba038",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "14_local_low",
+      "run_id": "eval-v2-14_local_low-00642aa4",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "15_local_boundary",
+      "run_id": "eval-v2-15_local_boundary-89614c87",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "16_technical_unknown",
+      "run_id": "eval-v2-16_technical_unknown-da7374fc",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "17_startup_no_proof",
+      "run_id": "eval-v2-17_startup_no_proof-627c113b",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "18_mse_emd_claim",
+      "run_id": "eval-v2-18_mse_emd_claim-2ae8ee1b",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "19_startup_emd",
+      "run_id": "eval-v2-19_startup_emd-45f55808",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "20_large_uneven_turnover",
+      "run_id": "eval-v2-20_large_uneven_turnover-26cd00bf",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "21_mse_ordinary",
+      "run_id": "eval-v2-21_mse_ordinary-8add2d54",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "22_startup_both",
+      "run_id": "eval-v2-22_startup_both-aa352dcf",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "23_empty_documents",
+      "run_id": "eval-v2-23_empty_documents-2b254f6b",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    },
+    {
+      "variant": "after",
+      "case": "24_missing_authorization",
+      "run_id": "eval-v2-24_missing_authorization-9a6b8ea5",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "calls": []
+    }
+  ]
+}

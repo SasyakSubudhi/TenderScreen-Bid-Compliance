@@ -1,0 +1,5 @@
+time="2026-10-30T03:02:19Z" level=warning msg="Found orphan containers ([tenderscreen-model-init-1 tenderscreen-model-service-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container tenderscreen-provider-stub-1  Recreate
+ Container tenderscreen-provider-stub-1  Recreated
+ Container tenderscreen-provider-stub-1  Starting
+ Container tenderscreen-provider-stub-1  Started

@@ -1,0 +1,818 @@
+{
+  "injected_failure_runs": [
+    {
+      "record": {
+        "run_id": "83d18118c1474cab98ff41f937a246ff",
+        "status": "completed",
+        "bid": {
+          "tender_id": "IITPKD-370",
+          "bidder_name": "Fault rehearsal c1551287",
+          "category": "large",
+          "turnover_inr": [
+            3000000,
+            3000000,
+            3000000,
+            3000000,
+            3000000
+          ],
+          "eligible_orders": 6,
+          "emd_paid_inr": 24000,
+          "exemption_claimed": false,
+          "recognition_id": "",
+          "own_goods_or_services": true,
+          "local_content_percent": 60,
+          "documents": [
+            "registration",
+            "pan",
+            "gst",
+            "audited_accounts",
+            "order_certificates",
+            "signed_tender",
+            "undertaking",
+            "non_debarment",
+            "local_content",
+            "authorization",
+            "fall_clause"
+          ],
+          "technical_compliance": "declared",
+          "notes": "Historical tender screening demonstration"
+        },
+        "submitted_at": 1793329340.7584226,
+        "prompt_version": "v2",
+        "trace_context": {
+          "traceparent": "00-457c3dfb19e2c6b92ee8132ab373b004-d3a3b66dfe8c054f-03"
+        },
+        "result": {
+          "route": "seek-clarification",
+          "human_review": true,
+          "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:provider_failed:ConnectError,ConnectError,ConnectError",
+          "findings": [],
+          "citations": [],
+          "prompt_version": "v2",
+          "authority": "screening recommendation only",
+          "verification": {
+            "passed": false,
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:provider_failed:ConnectError,ConnectError,ConnectError"
+            ],
+            "fallback": "no unverified condition findings returned"
+          },
+          "escalation_path": {
+            "owner": "Tender committee",
+            "action": "Review cited clauses and original bidder evidence",
+            "conflicts": []
+          }
+        },
+        "completed_at": 1793329341.254774,
+        "latency_seconds": 0.4963514804840088,
+        "cost_usd": 0
+      },
+      "trace": {
+        "run_id": "83d18118c1474cab98ff41f937a246ff",
+        "events": [
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 1,
+            "latency": 0.035242244999977856,
+            "error": "[Errno 111] Connection refused",
+            "trace_id": "457c3dfb19e2c6b92ee8132ab373b004",
+            "span_id": "d95d07112e44fa59",
+            "run_id": "83d18118c1474cab98ff41f937a246ff",
+            "time": 1793329340.8896494,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 2,
+            "latency": 0.008075811999987081,
+            "error": "[Errno 111] Connection refused",
+            "trace_id": "457c3dfb19e2c6b92ee8132ab373b004",
+            "span_id": "5a666b867fcacba7",
+            "run_id": "83d18118c1474cab98ff41f937a246ff",
+            "time": 1793329340.9986315,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 3,
+            "latency": 0.01199811199998635,
+            "error": "[Errno 111] Connection refused",
+            "trace_id": "457c3dfb19e2c6b92ee8132ab373b004",
+            "span_id": "c8d753829d9a95f2",
+            "run_id": "83d18118c1474cab98ff41f937a246ff",
+            "time": 1793329341.2116365,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "verification",
+            "step": "verification",
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:provider_failed:ConnectError,ConnectError,ConnectError"
+            ],
+            "verified": false,
+            "latency": 0.00024298800002497956,
+            "prompt_version": "v2",
+            "cost_usd": 0,
+            "trace_id": "457c3dfb19e2c6b92ee8132ab373b004",
+            "span_id": "3904554caf43ef56",
+            "run_id": "83d18118c1474cab98ff41f937a246ff",
+            "time": 1793329341.2538571,
+            "process_id": 1,
+            "service_instance": "562a405abec6"
+          }
+        ]
+      },
+      "observed_seconds": 0.8815485999948578
+    },
+    {
+      "record": {
+        "run_id": "59ba6823f5864693827129a6f3cf9f13",
+        "status": "completed",
+        "bid": {
+          "tender_id": "IITPKD-370",
+          "bidder_name": "Fault rehearsal ea66ec88",
+          "category": "large",
+          "turnover_inr": [
+            3000000,
+            3000000,
+            3000000,
+            3000000,
+            3000000
+          ],
+          "eligible_orders": 6,
+          "emd_paid_inr": 24000,
+          "exemption_claimed": false,
+          "recognition_id": "",
+          "own_goods_or_services": true,
+          "local_content_percent": 60,
+          "documents": [
+            "registration",
+            "pan",
+            "gst",
+            "audited_accounts",
+            "order_certificates",
+            "signed_tender",
+            "undertaking",
+            "non_debarment",
+            "local_content",
+            "authorization",
+            "fall_clause"
+          ],
+          "technical_compliance": "declared",
+          "notes": "Historical tender screening demonstration"
+        },
+        "submitted_at": 1793329341.6444454,
+        "prompt_version": "v2",
+        "trace_context": {
+          "traceparent": "00-ca89081497b3935bf6d50f6df6137e38-6c9d1e2fc5526589-03"
+        },
+        "result": {
+          "route": "seek-clarification",
+          "human_review": true,
+          "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:provider_failed:HTTPStatusError,HTTPStatusError,HTTPStatusError",
+          "findings": [],
+          "citations": [],
+          "prompt_version": "v2",
+          "authority": "screening recommendation only",
+          "verification": {
+            "passed": false,
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:provider_failed:HTTPStatusError,HTTPStatusError,HTTPStatusError"
+            ],
+            "fallback": "no unverified condition findings returned"
+          },
+          "escalation_path": {
+            "owner": "Tender committee",
+            "action": "Review cited clauses and original bidder evidence",
+            "conflicts": []
+          }
+        },
+        "completed_at": 1793329342.09206,
+        "latency_seconds": 0.4476146697998047,
+        "cost_usd": 0
+      },
+      "trace": {
+        "run_id": "59ba6823f5864693827129a6f3cf9f13",
+        "events": [
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 1,
+            "latency": 0.008044460000007803,
+            "error": "Server error '503 Service Unavailable' for url 'http://provider-stub:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+            "trace_id": "ca89081497b3935bf6d50f6df6137e38",
+            "span_id": "995a2e0a33e9c691",
+            "run_id": "59ba6823f5864693827129a6f3cf9f13",
+            "time": 1793329341.7244265,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 2,
+            "latency": 0.011860797999986517,
+            "error": "Server error '503 Service Unavailable' for url 'http://provider-stub:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+            "trace_id": "ca89081497b3935bf6d50f6df6137e38",
+            "span_id": "826a656265393fd3",
+            "run_id": "59ba6823f5864693827129a6f3cf9f13",
+            "time": 1793329341.8370297,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "research",
+            "step": "model_error",
+            "attempt": 3,
+            "latency": 0.009975959000001922,
+            "error": "Server error '503 Service Unavailable' for url 'http://provider-stub:8000/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503",
+            "trace_id": "ca89081497b3935bf6d50f6df6137e38",
+            "span_id": "401bc91a1763b3ec",
+            "run_id": "59ba6823f5864693827129a6f3cf9f13",
+            "time": 1793329342.0477908,
+            "process_id": 1,
+            "service_instance": "9f437dd34e9d"
+          },
+          {
+            "agent": "verification",
+            "step": "verification",
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:provider_failed:HTTPStatusError,HTTPStatusError,HTTPStatusError"
+            ],
+            "verified": false,
+            "latency": 7.535599999641818e-05,
+            "prompt_version": "v2",
+            "cost_usd": 0,
+            "trace_id": "ca89081497b3935bf6d50f6df6137e38",
+            "span_id": "f94eeda33735da92",
+            "run_id": "59ba6823f5864693827129a6f3cf9f13",
+            "time": 1793329342.0914114,
+            "process_id": 1,
+            "service_instance": "562a405abec6"
+          }
+        ]
+      },
+      "observed_seconds": 0.6081602000049315
+    },
+    {
+      "record": {
+        "run_id": "d82c543a6cfd48f79439e8beb3206fe6",
+        "status": "completed",
+        "bid": {
+          "tender_id": "IITPKD-370",
+          "bidder_name": "Fault rehearsal 8e9d2304",
+          "category": "large",
+          "turnover_inr": [
+            3000000,
+            3000000,
+            3000000,
+            3000000,
+            3000000
+          ],
+          "eligible_orders": 6,
+          "emd_paid_inr": 24000,
+          "exemption_claimed": false,
+          "recognition_id": "",
+          "own_goods_or_services": true,
+          "local_content_percent": 60,
+          "documents": [
+            "registration",
+            "pan",
+            "gst",
+            "audited_accounts",
+            "order_certificates",
+            "signed_tender",
+            "undertaking",
+            "non_debarment",
+            "local_content",
+            "authorization",
+            "fall_clause"
+          ],
+          "technical_compliance": "declared",
+          "notes": "Historical tender screening demonstration"
+        },
+        "submitted_at": 1793329342.260194,
+        "prompt_version": "v2",
+        "trace_context": {
+          "traceparent": "00-23cb2f567d335a31ca8386923b1a741c-77aa584d4964f30b-03"
+        },
+        "result": {
+          "route": "seek-clarification",
+          "human_review": true,
+          "basis": "Evidence verification failed. Human review required. unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-EMD, unretrieved:T-DOCUMENTS, unretrieved:T-ANNEXURES, unretrieved:T-TURNOVER, unretrieved:T-EXPERIENCE, unretrieved:T-LOCAL, unretrieved:T-TECHNICAL, incomplete_research:circuit_open",
+          "findings": [],
+          "citations": [],
+          "prompt_version": "v2",
+          "authority": "screening recommendation only",
+          "verification": {
+            "passed": false,
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:circuit_open"
+            ],
+            "fallback": "no unverified condition findings returned"
+          },
+          "escalation_path": {
+            "owner": "Tender committee",
+            "action": "Review cited clauses and original bidder evidence",
+            "conflicts": []
+          }
+        },
+        "completed_at": 1793329342.3321593,
+        "latency_seconds": 0.07196521759033203,
+        "cost_usd": 0
+      },
+      "trace": {
+        "run_id": "d82c543a6cfd48f79439e8beb3206fe6",
+        "events": [
+          {
+            "agent": "verification",
+            "step": "verification",
+            "errors": [
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-EMD",
+              "unretrieved:T-DOCUMENTS",
+              "unretrieved:T-ANNEXURES",
+              "unretrieved:T-TURNOVER",
+              "unretrieved:T-EXPERIENCE",
+              "unretrieved:T-LOCAL",
+              "unretrieved:T-TECHNICAL",
+              "incomplete_research:circuit_open"
+            ],
+            "verified": false,
+            "latency": 0.0001055380000138939,
+            "prompt_version": "v2",
+            "cost_usd": 0,
+            "trace_id": "23cb2f567d335a31ca8386923b1a741c",
+            "span_id": "b3ea480d153a1c06",
+            "run_id": "d82c543a6cfd48f79439e8beb3206fe6",
+            "time": 1793329342.3313065,
+            "process_id": 1,
+            "service_instance": "562a405abec6"
+          }
+        ]
+      },
+      "observed_seconds": 0.3368177999946056
+    }
+  ],
+  "recovery": {
+    "record": {
+      "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+      "status": "completed",
+      "bid": {
+        "tender_id": "IITPKD-370",
+        "bidder_name": "Fault rehearsal 6f1771c9",
+        "category": "large",
+        "turnover_inr": [
+          3000000,
+          3000000,
+          3000000,
+          3000000,
+          3000000
+        ],
+        "eligible_orders": 6,
+        "emd_paid_inr": 24000,
+        "exemption_claimed": false,
+        "recognition_id": "",
+        "own_goods_or_services": true,
+        "local_content_percent": 60,
+        "documents": [
+          "registration",
+          "pan",
+          "gst",
+          "audited_accounts",
+          "order_certificates",
+          "signed_tender",
+          "undertaking",
+          "non_debarment",
+          "local_content",
+          "authorization",
+          "fall_clause"
+        ],
+        "technical_compliance": "declared",
+        "notes": "Historical tender screening demonstration"
+      },
+      "submitted_at": 1793329361.3747044,
+      "prompt_version": "v2",
+      "trace_context": {
+        "traceparent": "00-d30960f6653ecebbd193803cf8622c2f-048e21c6fcb28025-03"
+      },
+      "result": {
+        "route": "pass-to-technical-evaluation",
+        "human_review": true,
+        "basis": "Screened summary findings only; tender committee retains every final decision.",
+        "findings": [
+          {
+            "condition": "turnover",
+            "status": "met",
+            "citation_ids": [
+              "T-TURNOVER"
+            ],
+            "basis": "Five-year average INR 3,000,000.00; threshold INR 2,400,000."
+          },
+          {
+            "condition": "experience",
+            "status": "met",
+            "citation_ids": [
+              "T-EXPERIENCE"
+            ],
+            "basis": "6 eligible implemented orders; threshold five."
+          },
+          {
+            "condition": "emd",
+            "status": "met",
+            "citation_ids": [
+              "T-EMD"
+            ],
+            "basis": "Declared payment covers INR 24,000."
+          },
+          {
+            "condition": "documents",
+            "status": "met",
+            "citation_ids": [
+              "T-DOCUMENTS",
+              "T-ANNEXURES",
+              "T-TURNOVER",
+              "T-EXPERIENCE"
+            ],
+            "basis": "All screened document categories declared present; authenticity remains for committee."
+          },
+          {
+            "condition": "local_content",
+            "status": "met",
+            "citation_ids": [
+              "T-LOCAL"
+            ],
+            "basis": "Declared local content 60 percent; minimum 20 percent."
+          },
+          {
+            "condition": "technical_quality",
+            "status": "review",
+            "citation_ids": [
+              "T-TECHNICAL"
+            ],
+            "basis": "Full technical evaluation and authenticity checks are outside this summary screen."
+          }
+        ],
+        "citations": [
+          {
+            "id": "T-ANNEXURES",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 2,
+            "original_pdf_page": 2,
+            "section": "2 a document composition",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The Tender Document comprises of: Instruction to the bidders including terms and conditions 1. Technical Specifications (Annexure-I) 2. Undertaking by the Bidder (Annexure-II) 3. Fall Clause Notice Certificate (Annexure-III) 4. Annexure regarding Blacklisting/Debarment (Annexure-IV) 5. Self Declaration \u2013 MII Order (Annexure-V)"
+          },
+          {
+            "id": "T-DOCUMENTS",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 a to g documents comprising the bid",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The Technical, Techno-commercial (Cover One), and Commercial Bid (Cover Two) shall be submitted ONLINE through the e-Wizard Portal. (b) Bids submitted in any mode other than ONLINE will be rejected outright. (c) Documents establishing the conformity of the terms and conditions of the Tender Document shall be provided along with the bid. The offer/bids should be sent only for a system or that is available in the market and supplied to a number of customers. A list of customers in India and abroad with details must accompany the quotations. Quotations for a prototype machine will not be accepted. (d) Original catalogue (not any photocopy) of the quoted model duly signed by the principals must accompany the quotation in the Technical bid. No prices should ever be included in the Technical bid. (e) Compliance or Confirmation report with reference to the specifications and other terms and conditions should also be obtained from the principal. (f) Information related to the agency/bidder such as photocopies of the Registration/PAN/GST/TIN shall be furnished. (g) The technical bid should consist of all technical details along with commercial terms and conditions. No prices should be included in the technical bid. Mentioning of Prices in the Technical Bid shall lead to DISQUALIFICATION. "
+          },
+          {
+            "id": "T-EMD",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "4 a to c",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "(a) The bidder shall furnish EMD of Rs.24,000/- (Rupees Twenty-Four Thousand Only) through online payment gateway in the E-Wizard. (b) Bids not accompanied by EMD shall be DISQUALIFIED. (c) The firms who are registered with National Small Industries Corporation (NSIC) / or Small Scale Industrial (SSI)/ Micro & Small Enterprises (MSEs) are exempted from submitting the EMD. NSIC / MSME registered bidders must submit a copy of a valid NSIC / MSME Registration Certificate for exemption of EMD. It will be applicable for those bidders who shall produce their own goods or provide their own services, and not applicable for trading purposes."
+          },
+          {
+            "id": "T-EXPERIENCE",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 h 1",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "1) Should have implemented at least FIVE ORDERS of Desktop Computer during previous five financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24)from Centrally Funded Technical Institutes (IITs, NITs, IISc, IISER), DRDO, ISRO, CSIR labs or Government Firms in India. Copies of the most recent purchase orders and user certificates of successful implementation must be included. Copies of financial statements or evidence of turnover must be furnished."
+          },
+          {
+            "id": "T-LOCAL",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 7,
+            "original_pdf_page": 7,
+            "section": "Award criteria 2",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "2. The bidder should be a Class-I / Class-II Local Supplier meeting the requirement of minimum 20% Local Content in line with the Public Procurement (Preference to Make in India) Order 2017 No. P-45021/2/2017-PP(BE-II) dated 16-09-2020."
+          },
+          {
+            "id": "T-TECHNICAL",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 8,
+            "original_pdf_page": 8,
+            "section": "Annexure I technical specifications",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "TECHNICAL SPECIFICATIONS Sl. No. Items IIT PKD required Specification 1. DESKTOP CPU 14th Gen Intel Core i7 Memory 32 GB DDR4 Storage 1 TB SSD Graphics Integrated Wifi and Bluetooth Wi-Fi 6 (802.11 ax), Bluetooth Ports USB 3.1 or higher , HDMI, Headphone / mic combo, RJ45 Display 23.8\u201d IPS LED Monitor with HDMI input, resolution : 1920x1080p @60Hz Keyboard Wired standard keyboard Mouse Wired Optical mouse Operating System Windows 11 Pro and Linux Warranty 5 Years Onsite"
+          },
+          {
+            "id": "T-TURNOVER",
+            "family": "tender",
+            "source_id": "tender",
+            "file": "tender.pdf",
+            "page": 3,
+            "original_pdf_page": 3,
+            "section": "3 h 2",
+            "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+            "text": "2) Should have an Average Annual Turnover of Rs.24,00,000/- (RUPEES TWENTY FOUR LAKHS ONLY) during the last FIVE financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24). The bidder shall enclose the audited statements of the indicated financial years, which should have been certified by a Chartered Accountant or a Competent Authority."
+          }
+        ],
+        "prompt_version": "v2",
+        "authority": "screening recommendation only",
+        "verification": {
+          "passed": true,
+          "errors": []
+        },
+        "escalation_path": {
+          "owner": "Tender committee",
+          "action": "Review cited clauses and original bidder evidence",
+          "conflicts": []
+        }
+      },
+      "completed_at": 1793329363.0187392,
+      "latency_seconds": 1.6440348625183105,
+      "cost_usd": 0.0
+    },
+    "trace": {
+      "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+      "events": [
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 0.5176165620000006,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "cost_usd": 0.0,
+          "usage_kind": "stub_no_tokens",
+          "provider_mode": "stub",
+          "model_identifier": null,
+          "action": {
+            "tool": "request_fields",
+            "args": {}
+          },
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "32d8d5f4e636dfcf",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329361.9197607,
+          "process_id": 1,
+          "service_instance": "9f437dd34e9d"
+        },
+        {
+          "agent": "research",
+          "step": "tool",
+          "tool": "request_fields",
+          "query": {},
+          "passages": {
+            "category": "large",
+            "average_turnover": 3000000.0,
+            "exemption_claimed": false,
+            "recognition_id": ""
+          },
+          "latency": 0.001515017000002672,
+          "prompt_version": "v2",
+          "cost_usd": 0,
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "d0ec0c82eff2829f",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329361.924277,
+          "process_id": 1,
+          "service_instance": "9f437dd34e9d"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 0.5430343040000025,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "cost_usd": 0.0,
+          "usage_kind": "stub_no_tokens",
+          "provider_mode": "stub",
+          "model_identifier": null,
+          "action": {
+            "tool": "corpus_search",
+            "args": {
+              "query": "turnover experience earnest money documents local content",
+              "family": "tender",
+              "k": 8
+            }
+          },
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "24707dc04a372a3a",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329362.4782689,
+          "process_id": 1,
+          "service_instance": "9f437dd34e9d"
+        },
+        {
+          "agent": "research",
+          "step": "tool",
+          "tool": "corpus_search",
+          "query": {
+            "query": "turnover experience earnest money documents local content",
+            "family": "tender",
+            "k": 8
+          },
+          "passages": [
+            {
+              "id": "T-LOCAL",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 7,
+              "original_pdf_page": 7,
+              "section": "Award criteria 2",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "2. The bidder should be a Class-I / Class-II Local Supplier meeting the requirement of minimum 20% Local Content in line with the Public Procurement (Preference to Make in India) Order 2017 No. P-45021/2/2017-PP(BE-II) dated 16-09-2020."
+            },
+            {
+              "id": "T-EXPERIENCE",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 3,
+              "original_pdf_page": 3,
+              "section": "3 h 1",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "1) Should have implemented at least FIVE ORDERS of Desktop Computer during previous five financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24)from Centrally Funded Technical Institutes (IITs, NITs, IISc, IISER), DRDO, ISRO, CSIR labs or Government Firms in India. Copies of the most recent purchase orders and user certificates of successful implementation must be included. Copies of financial statements or evidence of turnover must be furnished."
+            },
+            {
+              "id": "T-EMD",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 3,
+              "original_pdf_page": 3,
+              "section": "4 a to c",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "(a) The bidder shall furnish EMD of Rs.24,000/- (Rupees Twenty-Four Thousand Only) through online payment gateway in the E-Wizard. (b) Bids not accompanied by EMD shall be DISQUALIFIED. (c) The firms who are registered with National Small Industries Corporation (NSIC) / or Small Scale Industrial (SSI)/ Micro & Small Enterprises (MSEs) are exempted from submitting the EMD. NSIC / MSME registered bidders must submit a copy of a valid NSIC / MSME Registration Certificate for exemption of EMD. It will be applicable for those bidders who shall produce their own goods or provide their own services, and not applicable for trading purposes."
+            },
+            {
+              "id": "T-TURNOVER",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 3,
+              "original_pdf_page": 3,
+              "section": "3 h 2",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "2) Should have an Average Annual Turnover of Rs.24,00,000/- (RUPEES TWENTY FOUR LAKHS ONLY) during the last FIVE financial years (2019-20, 2020-21, 2021-22, 2022-23, 2023-24). The bidder shall enclose the audited statements of the indicated financial years, which should have been certified by a Chartered Accountant or a Competent Authority."
+            },
+            {
+              "id": "T-DOCUMENTS",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 3,
+              "original_pdf_page": 3,
+              "section": "3 a to g documents comprising the bid",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "(a) The Technical, Techno-commercial (Cover One), and Commercial Bid (Cover Two) shall be submitted ONLINE through the e-Wizard Portal. (b) Bids submitted in any mode other than ONLINE will be rejected outright. (c) Documents establishing the conformity of the terms and conditions of the Tender Document shall be provided along with the bid. The offer/bids should be sent only for a system or that is available in the market and supplied to a number of customers. A list of customers in India and abroad with details must accompany the quotations. Quotations for a prototype machine will not be accepted. (d) Original catalogue (not any photocopy) of the quoted model duly signed by the principals must accompany the quotation in the Technical bid. No prices should ever be included in the Technical bid. (e) Compliance or Confirmation report with reference to the specifications and other terms and conditions should also be obtained from the principal. (f) Information related to the agency/bidder such as photocopies of the Registration/PAN/GST/TIN shall be furnished. (g) The technical bid should consist of all technical details along with commercial terms and conditions. No prices should be included in the technical bid. Mentioning of Prices in the Technical Bid shall lead to DISQUALIFICATION. "
+            },
+            {
+              "id": "T-TECHNICAL",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 8,
+              "original_pdf_page": 8,
+              "section": "Annexure I technical specifications",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "TECHNICAL SPECIFICATIONS Sl. No. Items IIT PKD required Specification 1. DESKTOP CPU 14th Gen Intel Core i7 Memory 32 GB DDR4 Storage 1 TB SSD Graphics Integrated Wifi and Bluetooth Wi-Fi 6 (802.11 ax), Bluetooth Ports USB 3.1 or higher , HDMI, Headphone / mic combo, RJ45 Display 23.8\u201d IPS LED Monitor with HDMI input, resolution : 1920x1080p @60Hz Keyboard Wired standard keyboard Mouse Wired Optical mouse Operating System Windows 11 Pro and Linux Warranty 5 Years Onsite"
+            },
+            {
+              "id": "T-ANNEXURES",
+              "family": "tender",
+              "source_id": "tender",
+              "file": "tender.pdf",
+              "page": 2,
+              "original_pdf_page": 2,
+              "section": "2 a document composition",
+              "url": "https://iitpkd.ac.in/sites/default/files/2024-12/Tender_Document.pdf",
+              "text": "(a) The Tender Document comprises of: Instruction to the bidders including terms and conditions 1. Technical Specifications (Annexure-I) 2. Undertaking by the Bidder (Annexure-II) 3. Fall Clause Notice Certificate (Annexure-III) 4. Annexure regarding Blacklisting/Debarment (Annexure-IV) 5. Self Declaration \u2013 MII Order (Annexure-V)"
+            }
+          ],
+          "latency": 0.0038779010000098424,
+          "prompt_version": "v2",
+          "cost_usd": 0,
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "cb56acfb15e58065",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329362.4826207,
+          "process_id": 1,
+          "service_instance": "9f437dd34e9d"
+        },
+        {
+          "agent": "research",
+          "step": "model",
+          "prompt_version": "v2",
+          "attempt": 1,
+          "latency": 0.5083942450000052,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "cost_usd": 0.0,
+          "usage_kind": "stub_no_tokens",
+          "provider_mode": "stub",
+          "model_identifier": null,
+          "action": {
+            "tool": "handoff",
+            "args": {}
+          },
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "2e5fa282f18634b7",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329362.9927921,
+          "process_id": 1,
+          "service_instance": "9f437dd34e9d"
+        },
+        {
+          "agent": "verification",
+          "step": "verification",
+          "errors": [],
+          "verified": true,
+          "latency": 0.00014765399998850626,
+          "prompt_version": "v2",
+          "cost_usd": 0,
+          "trace_id": "d30960f6653ecebbd193803cf8622c2f",
+          "span_id": "b83b050c2b007a77",
+          "run_id": "c5e2feb667124e30bdf1cdd3297a9b33",
+          "time": 1793329363.017818,
+          "process_id": 1,
+          "service_instance": "562a405abec6"
+        }
+      ]
+    },
+    "observed_seconds": 2.050769699999364
+  },
+  "checks": "three attempts per exhausted call; third call circuit open; restored provider; new verified run"
+}

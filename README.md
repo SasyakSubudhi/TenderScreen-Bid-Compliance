@@ -63,3 +63,13 @@ The predeclared performance target is complete-run p95 <= 30 seconds. The 45-sec
 This historical corpus is not current legal advice. Categories and certificates are caller declarations; document authenticity and technical quality require committee review. Regex guardrails have limited semantic coverage. A consortium, foreign or unknown category escalates. The supplied team has four SRNs although the brief suggests two or three; all supplied identities are retained. The selected institution tender was published through e-Wizard rather than CPPP.
 
 Source is public at https://github.com/SasyakSubudhi/TenderScreen-Bid-Compliance. The final project package and comprehensive viva guide include reproducible commands, evidence definitions, measured limitations, incidents and ten demonstration flows. No external submission is performed.
+
+## Final measured results and study documents
+
+The corrected public source CI passed, and an anonymous clone built with `docker compose up --build -d` and served both example bids using fresh project volumes. Cached dependency layers were available. At ten concurrent users, successful E2E throughput was 0.437 runs/s with one research worker and 1.569 with three; p95 was 16 s and 6.5 s. First tested 30-second SLO misses were concurrency 20 and 60 respectively. These short measurements include graceful draining and are not steady-state capacity guarantees. The cache comparison showed no useful end-to-end improvement beyond noise.
+
+The controlled 24-case-per-version stub comparison improved groundedness/faithfulness from 75% to 100%; complete-context precision fell from 100% to 91.25%. The separate actual CPU model batch verified 12/24 v1 and 2/24 v2 cases, with timeouts and shared breaker carryover. All failures are retained. Actual successful responses reported 61,116 input tokens and 5,811 output tokens; local provider fees exclude hardware/electricity and failed-call token work may be unknown.
+
+* [Comprehensive project and viva guide](docs/Project_and_Viva_Guide.docx): 34 pages, 33 chapters, glossary, worked cases, code walkthrough and 70 viva answers.
+* [Concise assignment report](docs/Assignment_Report.docx): 3 pages with architecture, four quality metrics, SLO/scaling/cache results, costs, incidents and limitations.
+* [Requirement/evidence map](docs/STATUS.md) and [ten demonstrations](docs/DEMO.md).
