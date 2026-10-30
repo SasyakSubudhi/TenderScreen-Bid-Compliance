@@ -1,0 +1,5 @@
+{
+  "alternate_profile_reuses_existing_local_credentials": "passed",
+  "model_settings_remain_separate": "passed",
+  "test_data": "synthetic credentials; no model inference claimed"
+}

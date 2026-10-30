@@ -73,3 +73,5 @@ The controlled 24-case-per-version stub comparison improved groundedness/faithfu
 * [Comprehensive project and viva guide](docs/Project_and_Viva_Guide.docx): 34 pages, 33 chapters, glossary, worked cases, code walkthrough and 70 viva answers.
 * [Concise assignment report](docs/Assignment_Report.docx): 3 pages with architecture, four quality metrics, SLO/scaling/cache results, costs, incidents and limitations.
 * [Requirement/evidence map](docs/STATUS.md) and [ten demonstrations](docs/DEMO.md).
+
+When adding an alternate runtime profile, the configuration generator reuses existing private local API and Grafana credentials. This keeps the persisted Grafana database accessible when switching between stub and live inference. Preserve your private configuration files.

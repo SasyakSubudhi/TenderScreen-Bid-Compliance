@@ -11,5 +11,13 @@ values.update(API_PORT=args.port,OMP_NUM_THREADS='1',LOG_PASSAGES='0',RETRIEVAL_
 if args.mode=='local':
  if not args.model or not args.embedding_model:parser.error('Local mode requires --model and --embedding-model runtime identifiers')
  values.update(PROVIDER_MODE='local',PROVIDER_URL=scheme+'://model-service:11434/v1/chat/completions',MODEL_BASE_URL=scheme+'://model-service:11434',MODEL_ID=args.model,EMBEDDING_PROVIDER='ollama',EMBEDDING_URL=scheme+'://model-service:11434/api/embed',EMBEDDING_MODEL_ID=args.embedding_model,MODEL_CACHE_PATH=args.model_cache_path,CALL_TIMEOUT='20',EMBEDDING_TIMEOUT='60')
+# Alternate model profiles share the same persisted local deployment and Grafana DB.
+# Reuse its private credentials rather than generating a password the existing DB ignores.
+for previous in (root/'.env',root/'.env.live'):
+ if previous!=p and previous.exists():
+  existing=dict(line.split('=',1) for line in previous.read_text().splitlines() if '=' in line and not line.startswith('#'))
+  for key in ('API_TOKEN','GRAFANA_ADMIN_PASSWORD'):
+   if existing.get(key):values[key]=existing[key]
+  break
 p.write_text('\n'.join(k+'='+v for k,v in values.items())+'\n')
-print('Created runtime configuration with generated credentials. Keep it private.')
+print('Created runtime configuration with private local credentials. Keep it private.')
