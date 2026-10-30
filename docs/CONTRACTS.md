@@ -20,7 +20,7 @@ Input {satisfactory: boolean, reason: string length 3..1000}. Requires completed
 Persisted run counts, quarantine count, feedback totals, worker heartbeats and recent automatic citation resolution scores. Full deterministic reference scoring is in the evaluation CLI; the live score is only a proxy.
 
 ## GET /health and GET /metrics
-Health checks store read/write reachability; it is not an assertion that a model is available. Prometheus text metrics include complete-run histogram and corpus freshness. Worker metrics include task counts, success/failure labels, task latency, tools, steps, retries and uptime. Resource metrics require optional cAdvisor.
+Health checks store read/write reachability; it is not an assertion that a model is available. Prometheus text metrics include complete-run histogram and corpus freshness. Worker metrics include task counts, success/failure labels, task latency, tools, steps, retries and uptime. Container CPU/memory and Redis metrics come from the default internal resource exporter.
 
 ## Provider and queue
 Provider: configurable HTTP chat-completions JSON messages, JSON tool-action content and optional usage.prompt_tokens/completion_tokens. Only four action names are accepted: corpus_search, clause_lookup, request_fields, handoff. No shell or network tools are exposed to the model. A shared Redis sorted-set queue or local SQLite jobs table carries run IDs. Each claimed job has a 60-second lease; acknowledgment occurs after persisted handoff/result. Worker handoff state contains validated bid, retrieved clause map, phase, loop limits and timestamps. At-least-once delivery is possible; workers skip completed runs. Exactly-once handoff under all crash races is not claimed.

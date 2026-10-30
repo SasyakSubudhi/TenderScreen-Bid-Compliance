@@ -6,6 +6,10 @@ Team: **PES1UG24AM256 · PES1UG24AM266 · PES1UG24AM269 · PES1UG24AM292**.
 
 The service screens bids for closed IIT Palakkad tender TENDER/2024-25/370. It returns per-condition findings with exact source quotations and page references. A startup or MSE policy conflict is escalated with both sources. The human tender committee owns every final decision.
 
+## Quick Windows demonstration
+
+Double-click `RUN_DEMO.cmd` for the repeatable delayed-stub profile. It supports Docker Desktop or the tested WSL Ubuntu installation and keeps Compose in the foreground. Read API_PORT and API_TOKEN in the generated private `.env`, open the local web address and submit a fictional example.
+
 ## Run the live model deployment
 
 Install Docker with Linux containers, Compose v2 and Python 3.12. Open a terminal in this folder:
@@ -15,7 +19,7 @@ python scripts/configure.py --mode local --model llama3.2:latest --embedding-mod
 docker compose --env-file .env.live -f compose.yaml -f compose.live.yaml up --build
 ```
 
-The model identifiers above describe the tested experiment; runtime settings and credentials are supplied through the generated private environment file. The initializer downloads the requested models into a persistent volume. First startup requires internet access and several GB of disk and RAM. Tests used CPU inference, not a GPU. On the tested WSL host, use `--build-network host` when generating configuration if bridge DNS fails, and keep Ubuntu or foreground Compose running to prevent WSL idle shutdown.
+The model identifiers above describe the tested experiment; runtime settings and credentials are supplied through the generated private environment file. The initializer downloads the requested models into a persistent volume. First startup requires internet access and several GB of disk and RAM. Tests used CPU inference, not a GPU. The full live CPU batch suffered timeouts and breaker carryover; use the recorded failures when discussing quality and do not claim this profile met the latency SLO. On the tested WSL host, use `--build-network host` when generating configuration if bridge DNS fails, and keep Ubuntu or foreground Compose running to prevent WSL idle shutdown.
 
 Open `http://localhost:8000`. Copy API_TOKEN from `.env.live` into the token field. Select Ordinary bidder or Startup conflict and start screening. The web client shows the run state, cited findings, verification, trace and feedback. `/docs` provides the REST contract. Change the host port with the configuration generator's `--port` option.
 
